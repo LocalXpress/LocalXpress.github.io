@@ -29,7 +29,7 @@
     </style>
 </head>
 
-<body>
+<body onload="course_information()">
     <div class="preloader"></div>
     <header class="irs-main-header">
         <div class="irs-header-top-bar">
@@ -37,23 +37,14 @@
                 <div class="row">
                     <div class="col-md-2 col-sm-4">
                         <div class="irs-header-top-col irs-center-2">
-                            <p><i class="fa fa-phone" aria-hidden="true"></i> +021 - 123 1012 1211</p>
+                            <p><i class="fa fa-star" aria-hidden="true"></i>ASTERIX</p>
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-4">
                         <div class="irs-header-top-col irs-center-2">
-                            <p><i class="fa fa-clock-o" aria-hidden="true"></i> 10:00 AM - 4:00 PM</p>
+                            <p><i class="fa fa-clock-o" aria-hidden="true" id="time"></i></p>
                         </div>
                     </div>
-                    <div class="col-md-3 col-md-offset-5 col-sm-4">
-                        <div class="irs-header-top-col text-right irs-center-2">
-                            <div class="irs-social text-right irs-center-2">
-                                <a href="#"><i class="icofont icofont-social-facebook"></i></a>
-                                <a href="#"><i class="icofont icofont-social-twitter"></i></a>
-                                <a href="#"><i class="icofont icofont-social-vimeo"></i></a>
-                                <a href="#"><i class="icofont icofont-brand-linkedin"></i></a>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -64,43 +55,28 @@
             <div id="con">
             <div id="left_bar">
             <h4><b><a href="course-single.html">About Computer Science courses</a></b></h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            <b>Introduction:</b><div id="info"></div>
+            <b>Prescribed Books:</b><div id="books"></div>
+            <b>Special Instructions:</b><div id="ins"></div>
             </div>
             <div id="right_bar">
             <div class="irs-course-features">
-                <h2>course features</h2>
-                                        <ul>
-                                            <li><strong>Course Name :</strong> <span class="pull-right">Computer Science</span>
-                                            </li>
-                                            <li><strong>Teacher :</strong> <span class="pull-right">Jeson Monica</span>
-                                            </li>
-                                            <li><strong>Reviews :</strong> <span class="pull-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                            </span>
-                                            </li>
-                                            <li><strong>Start Date :</strong> <span class="pull-right">November 20, 2017</span>
-                                            </li>
-                                            <li><strong>Start Date :</strong> <span class="pull-right">November 20, 2017</span>
-                                            </li>
-                                            <li><strong>Start Date :</strong> <span class="pull-right">November 20, 2017</span>
-                                            </li>
-                                            <li><strong>Start Time :</strong> <span class="pull-right">10:00 AM</span>
-                                            </li>
-                                        </ul>
-                                        <a class="btn btn-default irs-btn-transparent-two" href="blog-single.html" role="button">enroll now</a>
-                                        </div>
-            </div>  
-            </div>
-            </div>
+<h2>course features</h2>
+<ul>
+<li><strong>Course Name :</strong><span class="pull-right" id="subject"></span></li>
+<li><strong>Teacher :</strong> <span class="pull-right" id="teacher"></span></li>
+<li><strong>Fees:</strong><span class="pull-right" id="fee"></span>
+<li><strong>Phone:</strong><span class="pull-right" id="phone"></span>
+<li><strong>E-Mail ID:</strong><span class="pull-right" id="mail"></span>
+<li><strong>Classes:</strong><span class="pull-right"><p id="class"></p></span>
+</ul>
+<a class="btn btn-default irs-btn-transparent-two" href="blog-single.html" role="button">ENROLL NOW</a>
+</div></div></div></div>
 
 
 
+
+           <!--Other Courses parts--> 
             <div class="row">
                 <div class="col-md-12">
                 </div>

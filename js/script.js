@@ -199,3 +199,21 @@
 
 
 })(window.jQuery);
+function course_information()
+    {
+        document.getElementById("subject").innerHTML = "COMPUTER SCIENCE";
+        document.getElementById("teacher").innerHTML = "<a href='Teacher-single-Master.html'>Swaroop Acharjee</a>";
+        document.getElementById("fee").innerHTML = "Rs 800/- per month";
+        document.getElementById("class").innerHTML = "11 & 12";
+        document.getElementById("phone").innerHTML = " 9674507568 ";
+        document.getElementById("mail").innerHTML = "<small>meet.ripon@gmail.com</small>";
+        document.getElementById("time").innerHTML="9:30pm - 2:30am";
+        document.getElementById("info").innerHTML="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker";
+        document.getElementById("books").innerHTML="C++ with Sumita Arora";
+        document.getElementById("ins").innerHTML="It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker";
+        document.getElementById("books").innerHTML="C++ with Sumita Arora";
+    } 
+function teacher_information()
+{
+    
+}
