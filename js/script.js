@@ -199,8 +199,21 @@
 
 
 })(window.jQuery);
+
 function course_information()
     {
+        var params = {};
+        if (location.search) {
+        var parts = location.search.substring(1).split('&');
+        for (var i = 0; i < parts.length; i++) {
+        var nv = parts[i].split('=');
+        if (!nv[0]) continue;
+        params[nv[0]] = nv[1] || true;
+            }
+        }
+        id=params.id;
+        alert(id);
+
         document.getElementById("subject").innerHTML = "COMPUTER SCIENCE";
         document.getElementById("teacher").innerHTML = "<a href='Teacher-single-Master.html'>Swaroop Acharjee</a>";
         document.getElementById("fee").innerHTML = "Rs 800/- per month";
@@ -213,7 +226,18 @@ function course_information()
         document.getElementById("ins").innerHTML="It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker";
         document.getElementById("books").innerHTML="C++ with Sumita Arora";
     } 
+
 function teacher_information()
 {
-    
+        var params = {};
+        if (location.search) {
+        var parts = location.search.substring(1).split('&');
+        for (var i = 0; i < parts.length; i++) {
+        var nv = parts[i].split('=');
+        if (!nv[0]) continue;
+        params[nv[0]] = nv[1] || true;
+            }
+        }
+        id=params.t_id;
+        alert(id); 
 }
