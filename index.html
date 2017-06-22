@@ -10,6 +10,72 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <style>
+    ul 
+    {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        background:white;
+        color:black;
+    }
+
+    ul li 
+    {
+        display: block;
+        position: relative;
+        float: left;
+        background:white;
+        color:black;
+}
+
+/* This hides the dropdowns */
+li ul { display: none; }
+
+ul li a {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  white-space: nowrap;
+  color: black;
+}
+
+ul li a:hover { background:white; color:black;}
+
+/* Display the dropdown */
+
+
+li:hover > ul {
+  display: block;
+  position: absolute;
+}
+
+li:hover li { float: none; }
+
+li:hover a { background:white; }
+
+li:hover li a:hover { background:white; }
+
+.main-navigation li ul li { border-top: 0; }
+
+/* Displays second level dropdowns to the right of the first level dropdown */
+ul ul ul {
+  left: 100%;
+  top: 0;
+}
+/* Simple clearfix */
+ul:before,
+ul:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+ul:after { clear: both; }
+.irs-main-header
+{
+    background:white;
+}
+    </style>
 </head>
 <body>
     <div class="preloader"></div>
@@ -21,58 +87,66 @@
                         <nav class="navbar navbar-default irs-navbar">
                             <div class="container-fluid">
                                 <!-- Brand and toggle get grouped for better mobile display -->
-                                <div class="navbar-header">
-                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                                        <span class="sr-only">Toggle navigation</span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                    </button>
-                                    <a class="navbar-brand" href="index-layout2.html">
-                                        <img class="irs-logo-1" src="images/logo.png" alt="">
-                                        <img class="irs-logo-2" src="images/logo-2.png" alt="">
-                                    </a>
-                                </div>
-                                <!-- Collect the nav links, forms, and other content for toggling -->
-                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                                    <ul class="nav navbar-nav navbar-right" data-hover="dropdown" data-animations="flipInY">
-                                        <li class="dropdown">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">FEATURES <i class="fa fa-angle-down"></i></a>
-                                            <ul class="dropdown-menu">
-                                              <li><a href="#">ONLINE TUITIONS</a></li>
-                                              <li><a href="#">ENTRANCE EXAMS</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="dropdown">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CLASS XII - CLASS IX <i class="fa fa-angle-down"></i></a>
-                                            <ul class="dropdown-menu">
-                                              <li><a href="#">CLASS XII</a></li>
-                                              <li><a href="#">CLASS XI</a></li>
-                                              <li><a href="#">CLASS X</a></li>
-                                              <li><a href="#">CLASS IX</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="dropdown">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CLASS VIII - CLASS V <i class="fa fa-angle-down"></i></a>
-                                            <ul class="dropdown-menu">
-                                              <li><a href="#">CLASS VIII</a></li>
-                                              <li><a href="#">CLASS VII</a></li>
-                                              <li><a href="#">CLASS VI</a></li>
-                                              <li><a href="#">CLASS V</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="dropdown">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CLASS IV - CLASS I <i class="fa fa-angle-down"></i></a>
-                                            <ul class="dropdown-menu">
-                                              <li><a href="#">CLASS IV</a></li>
-                                              <li><a href="#">CLASS III</a></li>
-                                              <li><a href="#">CLASS II</a></li>
-                                              <li><a href="#">CLASS I</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+                                <ul class="main-navigation">
+  <li><a href="#">Home</a></li>
+  <li><a href="#">Front End Design</a>
+    <ul>
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">CSS</a>
+        <ul>
+          <li><a href="#">Resets</a></li>
+          <li><a href="#">Grids</a></li>
+          <li><a href="#">Frameworks</a></li>
+        </ul>
+      </li>
+      <li><a href="#">JavaScript</a>
+        <ul>
+          <li><a href="#">Ajax</a></li>
+          <li><a href="#">jQuery</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#">WordPress Development</a>
+    <ul>
+      <li><a href="#">Themes</a>
+          <ul>
+              <li><a href="#">Portfolios</a></li>
+              <li><a href="#">Testimonials</a>
+                  <ul>
+                      <li><a href="#">Portfolios</a>
+                          <ul>
+                            <li><a href="#">Portfolios</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                          </ul>
+                      </li>
+                      <li><a href="#">Testimonials</a>
+                          <ul>
+                            <li><a href="#">Portfolios</a></li>
+                            <li><a href="#">Testimonials</a>
+                                <ul>
+                                  <li><a href="#">Portfolios</a></li>
+                                  <li><a href="#">Testimonials</a></li>
+                                </ul>
+                            </li>
+                          </ul>
+                      </li>
+                  </ul>
+              </li>
+          </ul>
+      </li>
+      <li><a href="#">Plugins</a></li>
+      <li><a href="#">Custom Post Types</a>
+        <ul>
+          <li><a href="#">Portfolios</a></li>
+          <li><a href="#">Testimonials</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Options</a></li>
+    </ul>
+  </li>
+  <li><a href="#">About Us</a></li>
+</ul>
                         </nav>
                     </div>
                     <div class="col-md-2 col-sm-12">
@@ -144,15 +218,15 @@
                 <div class="col-md-7">
                     <div class="row">
                         <div class="col-md-6">
+                        <div class="try">
                             <div class="irs-discription-col">
-                                <ul>
-                                    <li><i class="zmdi zmdi-dot-circle"></i>Consectetur adipisicing elit, sed do</li>
-                                    <li><i class="zmdi zmdi-dot-circle"></i>Lorem ipsum dolor sit amet</li>
-                                    <li><i class="zmdi zmdi-dot-circle"></i>Incididunt ut labore et dolore</li>
-                                    <li><i class="zmdi zmdi-dot-circle"></i>Lorem ipsum dolor sit amet, adipisicing </li>
-                                    <li><i class="zmdi zmdi-dot-circle"></i>Consectetur adipisicing elit, sed do</li>
-                                    <li><i class="zmdi zmdi-dot-circle"></i>Incididunt ut labore et dolore</li>
-                                </ul>
+                                    <p>Consectetur adipisicing elit, sed do</p>
+                                    <p>Consectetur adipisicing elit, sed do</p>
+                                    <p>Consectetur adipisicing elit, sed do</p>
+                                    <p>Consectetur adipisicing elit, sed do</p>
+                                    <p>Consectetur adipisicing elit, sed do</p>
+                                    <p>Consectetur adipisicing elit, sed do</p>
+                            </div>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -173,6 +247,7 @@
     <section class="irs-courses-field">
         <div class="container">
             <div class="row">
+                
                 <div class="col-md-6 col-md-offset-3">
                     <div class="irs-section-title">
                         <h2>our <span>courses</span></h2>
@@ -191,23 +266,9 @@
                     <div class="irs-courses-col animated fadeInLeftShort slow delay-250">
                         <div class="irs-courses-img">
                             <img src="images/courses/1.jpg" alt="">
-                            <div class="irs-time">
-                                <p><a href="#">10:00 pm - 4:00 pm</a>
-                                </p>
-                            </div>
-                            <div class="irs-courses-img-text">
-                                <ul class="clearfix">
-                                    <li>
-                                        <p><i class="zmdi zmdi-calendar-alt"></i> 3 years</p>
-                                    </li>
-                                    <li class="pull-right">
-                                        <p><i class="zmdi zmdi-money"></i> 290</p>
-                                    </li>
-                                </ul>
-                            </div>
                         </div>
                         <div class="irs-courses-content">
-                            <h4><a href="course-single.html">CHEMISTRY</a></h4>
+                            <h4><a href="Course-single-Master.html?id=1">CHEMISTRY</a></h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam est dolorem quaerat harum sequi, nesciunt consequatur</p>
                         <a class="btn btn-default irs-btn-transparent-two" href="Course-single-Master.html?id=1" role="button">KNOW MORE</a>
                         </div>
@@ -218,20 +279,6 @@
                     <div class="irs-courses-col animated fadeInLeftShort slow delay-250">
                         <div class="irs-courses-img">
                             <img src="images/courses/1.jpg" alt="">
-                            <div class="irs-time">
-                                <p><a href="#">10:00 pm - 4:00 pm</a>
-                                </p>
-                            </div>
-                            <div class="irs-courses-img-text">
-                                <ul class="clearfix">
-                                    <li>
-                                        <p><i class="zmdi zmdi-calendar-alt"></i> 3 years</p>
-                                    </li>
-                                    <li class="pull-right">
-                                        <p><i class="zmdi zmdi-money"></i> 290</p>
-                                    </li>
-                                </ul>
-                            </div>
                         </div>
                         <div class="irs-courses-content">
                             <h4><a href="course-single.html">CHEMISTRY</a></h4>
@@ -240,25 +287,12 @@
                         </div>
                     </div>
                 </div>
+
                 <!--subject Areana-->
                  <div class="col-md-4 col-sm-6">
                     <div class="irs-courses-col animated fadeInLeftShort slow delay-250">
                         <div class="irs-courses-img">
                             <img src="images/courses/1.jpg" alt="">
-                            <div class="irs-time">
-                                <p><a href="#">10:00 pm - 4:00 pm</a>
-                                </p>
-                            </div>
-                            <div class="irs-courses-img-text">
-                                <ul class="clearfix">
-                                    <li>
-                                        <p><i class="zmdi zmdi-calendar-alt"></i> 3 years</p>
-                                    </li>
-                                    <li class="pull-right">
-                                        <p><i class="zmdi zmdi-money"></i> 290</p>
-                                    </li>
-                                </ul>
-                            </div>
                         </div>
                         <div class="irs-courses-content">
                             <h4><a href="course-single.html">CHEMISTRY</a></h4>
@@ -379,65 +413,6 @@
     </section>
     <!-- Gallery end -->
     <!-- Teachers start -->
-    <section class="irs-teachers-field">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3">
-                    <div class="irs-section-title">
-                        <h2>Our <span>teachers</span></h2>
-                        <div class="irs-title-line">
-                            <div class="irs-title-icon">
-                                <i class="icofont icofont-education"></i>
-                            </div>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam est dolorem quaerat harum sequi, nesciunt consequatur magni voluptatem similique </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row animatedParent animateOnce">
-                <div class="col-md-3 col-sm-6">
-                    <div class="irs-teachers-col animated fadeInUpShort slow delay-250">
-                        <a href="Teacher-single-Master.html?t_id=1"><img src="images/teachers/1.jpg" alt="">
-                        </a>
-                        <div class="irs-teachers-name">
-                            <h4><a href="Teacher-single-Master.html?t_id=1">Supriyo Mondol</a></h4>
-                            <p>Chemistry/Biology</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-sm-6">
-                    <div class="irs-teachers-col animated fadeInUpShort slow delay-500">
-                        <a href="Teacher-single-Master.html?t_id=2"><img src="images/teachers/2.jpg" alt="">
-                        </a>
-                        <div class="irs-teachers-name">
-                            <h4><a href="Teacher-single-Master.html?t_id=2">Avik Das</a></h4>
-                            <p>Mathematics</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-sm-6">
-                    <div class="irs-teachers-col animated fadeInUpShort slow delay-750">
-                        <a href="Teacher-single-Master.html?t_id=3"><img src="images/teachers/3.jpg" alt="">
-                        </a>
-                        <div class="irs-teachers-name">
-                            <h4><a href="Teacher-single-Master.html?t_id=4">Shroman Guha</a></h4>
-                            <p>Mathematics</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="irs-teachers-col animated fadeInUpShort slow delay-1000">
-                        <a href="Teacher-single-Master.html?t_id=4"><img src="images/teachers/4.jpg" alt="">
-                        </a>
-                        <div class="irs-teachers-name">
-                            <h4><a href="Teacher-single-Master.html?t_id=4">Swaroop Acharjee</a></h4>
-                            <p>Computer Teacher</p>
-                        </div>
-                    </div>
-    </section>
     <!-- Teachers  end -->
     <!-- MAP -->
     <section class="irs-contact-field">
@@ -577,5 +552,18 @@
             }).triggerHandler('scroll');
         });
     </script>
+    <script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46156385-1', 'cssscript.com');
+  ga('send', 'pageview');
+
+</script>
 </body>
 </html>
