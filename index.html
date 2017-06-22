@@ -18,6 +18,9 @@
         margin: 0;
         background:white;
         color:black;
+        font-family: 'Oxygen', sans-serif;
+        font-size:13px;
+
     }
 
     ul li 
@@ -54,9 +57,12 @@ li:hover li { float: none; }
 
 li:hover a { background:white; }
 
-li:hover li a:hover { background:white; }
+li:hover li a:hover { background:white;}
 
-.main-navigation li ul li { border-top: 0; }
+.main-navigation li ul li { 
+    border-top: 0;
+    border-bottom:2px solid #009688;
+    }
 
 /* Displays second level dropdowns to the right of the first level dropdown */
 ul ul ul {
@@ -74,6 +80,11 @@ ul:after { clear: both; }
 .irs-main-header
 {
     background:white;
+    border-bottom:6px solid #009688;
+}
+#subject_pane
+{
+    background:yellow;
 }
     </style>
 </head>
@@ -89,24 +100,21 @@ ul:after { clear: both; }
                                 <!-- Brand and toggle get grouped for better mobile display -->
                                 <ul class="main-navigation">
   <li><a href="#">Home</a></li>
-  <li><a href="#">Front End Design</a>
-    <ul>
-      <li><a href="#">HTML</a></li>
-      <li><a href="#">CSS</a>
-        <ul>
-          <li><a href="#">Resets</a></li>
-          <li><a href="#">Grids</a></li>
-          <li><a href="#">Frameworks</a></li>
-        </ul>
-      </li>
-      <li><a href="#">JavaScript</a>
-        <ul>
-          <li><a href="#">Ajax</a></li>
-          <li><a href="#">jQuery</a></li>
-        </ul>
-      </li>
+
+  <li><a href="#">OLYMPIAD</a>
+     <ul>
+        <li><a href="#">Portfolios</a></li>
+        <li><a href="#">Testimonials</a></li>
+        <li><a href="#">Testimonials</a></li>
+        <li><a href="#">Testimonials</a></li>
+        <li><a href="#">Testimonials</a></li>
+        <li><a href="#">Testimonials</a></li>
+        <li><a href="#">Testimonials</a></li>
+        <li><a href="#">Testimonials</a></li>
+        <li><a href="#">Testimonials</a></li>
     </ul>
   </li>
+  
   <li><a href="#">WordPress Development</a>
     <ul>
       <li><a href="#">Themes</a>
@@ -164,9 +172,14 @@ ul:after { clear: both; }
         <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
-                <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
-                <li data-target="#bs-carousel" data-slide-to="1"></li>
-                <li data-target="#bs-carousel" data-slide-to="2"></li>
+            <div id="subject_pane">
+                    Chemistry<br>
+                    Biology<br>
+                    Mathematics<br>
+                    Physics<br>
+                    Biotech<br>
+                    Computer<br>
+            </div>
             </ol>
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
@@ -178,6 +191,7 @@ ul:after { clear: both; }
                         <a href="#" class="btn btn-default irs-big-btn" role="button">Login</a>
                     </div>
                 </div>
+                
                 <div class="item slides">
                     <div class="slide-2"></div>
                     <div class="hero">
