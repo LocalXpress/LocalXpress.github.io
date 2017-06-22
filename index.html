@@ -496,28 +496,6 @@ ul:after { clear: both; }
     <!-- Funfact START -->
     <!-- Google maps -->
     <script type="text/javascript">
-        $(window).load(function() {
-            $("#map-canvas").googleMap({
-                zoom: 5, // Initial zoom level (optional)
-                coords: [48.870356, 2.322645], // Map center (optional)
-                type: "ROADMAP", // Map type (optional)
-                address: "Canal Saint-Martin, Paris, France", // Postale Address
-                infoWindow: {
-                    content: '<p style="text-align:center;"><strong>Canal Saint-Martin,</strong><br> Paris, France</p>'
-                }
-            });
-            // Marker 2
-            $("#map-canvas").addMarker({
-                coords: [48.870356, 2.322645]
-            });
-            // Marker 3
-            $("#map-canvas").addMarker({
-                coords: [48.865358, 2.348607]
-            });
-        });
-    </script>
-    
-    <script type="text/javascript">
         $(document).ready(function($) {
             $('.start-count').each(function() {
                 var $this = $(this);
@@ -550,7 +528,5 @@ ul:after { clear: both; }
             }).triggerHandler('scroll');
         });
     </script>
-    <script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/show_ads.js">
-</script></div>
 </body>
 </html>
