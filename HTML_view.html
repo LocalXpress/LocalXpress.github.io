@@ -13,12 +13,27 @@ document.onkeydown = function (e) {
     e.preventDefault();
   }	     
 }
-document.addEventListener("click",handler,true);
 
-function handler(e){
-	alert("Invalid option");
-    e.stopPropagation();
-    e.preventDefault();
+if (document.layers) {
+    document.captureEvents(Event.MOUSEDOWN);
+    document.onmousedown = function () {
+        return false;
+    };
+}
+else {
+    document.onmouseup = function (e) {
+        if (e != null && e.type == "mouseup") {
+            //Check the Mouse Button which is clicked.
+            if (e.which == 2 || e.which == 3) {
+                //If the Button is middle or right then disable.
+                return false;
+            }
+        }
+    };
+}
+document.oncontextmenu = function () {
+    return false;
+};
 }
 </script>
 
