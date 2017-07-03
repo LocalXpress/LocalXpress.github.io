@@ -258,7 +258,7 @@ h6 {
 }
 .irs-big-btn {
     background-color: #009688;
-    color: #ffffff;
+    font-color:white;
     font-size: 16px;
     font-weight: 400;
     text-transform: uppercase;
@@ -583,7 +583,7 @@ h6 {
     background-repeat: no-repeat;
 }
 .fade-carousel .slides .slide-1 {
-   background-image: url(../images/slider/1.jpg);
+   background-image: url(../images/slider/Main_Page.gif);
    position: relative;
 }
 .fade-carousel .slides .slide-2 {

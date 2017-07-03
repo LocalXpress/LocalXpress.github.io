@@ -84,7 +84,42 @@ ul:after { clear: both; }
 }
 #subject_pane
 {
-    background:yellow;
+    background:transparent;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border-left: 12px solid #4CAF50;
+    width: 135px;
+    box-shadow: 5px 5px 5px #888888;
+    float:left; 
+    clear: left;
+    margin-left:320px;
+}
+.button1:hover
+{
+    background-color: #f3fff4;
+    font-size:15px;
+    width:200px;
+    height:50px;
+}
+a:link, a:visited
+{
+    color:black; !important;
+    text-decoration:none;
 }
     </style>
 </head>
@@ -173,12 +208,10 @@ ul:after { clear: both; }
             <!-- Indicators -->
             <ol class="carousel-indicators">
             <div id="subject_pane">
-                    Chemistry<br>
-                    Biology<br>
-                    Mathematics<br>
-                    Physics<br>
-                    Biotech<br>
-                    Computer<br>
+                    <button class="button button1"><a href="#">Chemistry</a></button>
+                    <button class="button button1"><a href="#">Biology</a></button>
+                    <button class="button button1"><a href="#">Mathematics</a></button>
+                    <button class="button button1"><a href="#">Biotechnology</a></button>
             </div>
             </ol>
             <!-- Wrapper for slides -->
@@ -186,9 +219,8 @@ ul:after { clear: both; }
                 <div class="item slides active">
                     <div class="slide-1"></div>
                     <div class="hero">
-                        <span>learn and build your life</span>
-                        <h1>gain knowledge from <strong>asterix</strong></h1>
-                        <a href="#" class="btn btn-default irs-big-btn" role="button">Login</a>
+                        <h1><strong>*asterix</strong></h1>
+                        <a href="#" class="btn btn-default irs-big-btn" style="color:white;"role="button">Login</a>
                     </div>
                 </div>
             </div>
