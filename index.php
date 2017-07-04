@@ -167,9 +167,9 @@ a:link, a:visited
   <li><a href="#">Home</a></li>
   <li><a href="#">OLYMPIAD EXAMINNATIONS</a>
      <ul>
-        <li><a href="#">Science Olympiad&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-        <li><a href="#">Maths Olympiad</a></li>
-        <li><a href="#">Computer Olympiad</a></li>
+        <li><a href="">Science Olympiad&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+        <li><a href="course_PDF.php?id=1" target="_blank">Maths Olympiad</a></li>
+        <li><a href="course_PDF.php?id=2">Computer Olympiad</a></li>
         <li><a href="#">English Olympiad</a></li>
         <li><a href="#">KVPY</a></li>
         <li><a href="#">NEST</a></li>
