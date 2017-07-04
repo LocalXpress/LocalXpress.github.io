@@ -60,6 +60,7 @@ li:hover a { background:white; }
 li:hover li a:hover { background:white;}
 
 .main-navigation li ul li { 
+    position:relative;
     border-top: 0;
     border-bottom:2px solid #009688;
     }
@@ -120,7 +121,27 @@ a:link, a:visited
     color:black; !important;
     text-decoration:none;
 }
-    </style>
+#nav_login
+{
+    padding-top:15px;
+    float:right;
+}
+#nav_login a
+{
+    text-align: center;
+    color: #009688;
+    padding: 10px 15px;
+    margin-top: 30px;
+    border: 2px solid #009688;
+    
+}
+#nav_login a:hover
+{
+    color: #fff;
+    background:#009688;
+}
+</style>
+
 </head>
 <body>
     <header class="irs-main-header ire-header-two">
@@ -128,71 +149,281 @@ a:link, a:visited
             <div class="container">
                 <div class="row">
                     <div class="col-md-10 col-sm-12">
-                        <nav class="navbar navbar-default irs-navbar">
-                            <div class="container-fluid">
+                        <!--<nav class="navbar navbar-default irs-navbar">
+                            <div class="container-fluid">-->
                                 <!-- Brand and toggle get grouped for better mobile display -->
-                                <ul class="main-navigation">
+<ul class="main-navigation">
   <li><a href="#">Home</a></li>
-
-  <li><a href="#">OLYMPIAD</a>
+  <li><a href="#">OLYMPIAD EXAMINNATIONS</a>
      <ul>
-        <li><a href="#">Portfolios</a></li>
-        <li><a href="#">Testimonials</a></li>
-        <li><a href="#">Testimonials</a></li>
-        <li><a href="#">Testimonials</a></li>
-        <li><a href="#">Testimonials</a></li>
-        <li><a href="#">Testimonials</a></li>
-        <li><a href="#">Testimonials</a></li>
-        <li><a href="#">Testimonials</a></li>
-        <li><a href="#">Testimonials</a></li>
+        <li><a href="#">Science Olympiad&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+        <li><a href="#">Maths Olympiad</a></li>
+        <li><a href="#">Computer Olympiad</a></li>
+        <li><a href="#">English Olympiad</a></li>
+        <li><a href="#">KVPY</a></li>
+        <li><a href="#">NEST</a></li>
+        <li><a href="#">IISER</a></li>
+        <li><a href="#">JEE(Mains & Advanced)</a></li>
+        <li><a href="#">NEET</a></li>
+        <li><a href="#">WBJEE</a></li>   
     </ul>
   </li>
   
-  <li><a href="#">sdfhdsfhsdfhkdshfk</a>
+  <li><a href="#">CBSE</a>
     <ul>
-      <li><a href="#">Themes</a>
+      <li><a href="#">Classes I-VI</a>
           <ul>
-              <li><a href="#">Portfolios</a></li>
-              <li><a href="#">Testimonials</a>
-                  <ul>
-                      <li><a href="#">Portfolios</a>
-                          <ul>
-                            <li><a href="#">Portfolios</a></li>
-                            <li><a href="#">Testimonials</a></li>
-                          </ul>
-                      </li>
-                      <li><a href="#">Testimonials</a>
-                          <ul>
-                            <li><a href="#">Portfolios</a></li>
-                            <li><a href="#">Testimonials</a>
-                                <ul>
-                                  <li><a href="#">Portfolios</a></li>
-                                  <li><a href="#">Testimonials</a></li>
-                                </ul>
-                            </li>
-                          </ul>
-                      </li>
-                  </ul>
+              <li><a href="#">English</a></li>
+              <li><a href="#">Science</a></li>
+              <li><a href="#">Social Science</a></li>
+              <li><a href="#">Mathematics</a></li>
+              <li><a href="#">Computer</a></li>
+          </ul>           
+      </li>
+      <li><a href="#">Class VII</a>
+            <ul>
+              <li><a href="#">English</a></li>
+              <li><a href="#">Science</a>
+                <ul>
+                    <li><a href="#">Physics</a></li>
+                    <li><a href="#">Chemistry</a></li>
+                    <li><a href="#">Biology</a></li>
+                </ul>
               </li>
-          </ul>
+              <li><a href="#">Social Science</a>
+                <ul>
+                    <li><a href="#">History</a></li>
+                    <li><a href="#">Geography</a></li>
+                    <li><a href="#">Economics</a></li>
+                    <li><a href="#">Political Science</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Mathematics</a></li>
+              <li><a href="#">Computer</a></li>
+            </ul>           
       </li>
-      <li><a href="#">Plugins</a></li>
-      <li><a href="#">Custom Post Types</a>
-        <ul>
-          <li><a href="#">Portfolios</a></li>
-          <li><a href="#">Testimonials</a></li>
-        </ul>
+      <li><a href="#">Class VIII</a>
+            <ul>
+              <li><a href="#">English</a></li>
+              <li><a href="#">Science</a>
+                <ul>
+                    <li><a href="#">Physics</a></li>
+                    <li><a href="#">Chemistry</a></li>
+                    <li><a href="#">Biology</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Social Science</a>
+                <ul>
+                    <li><a href="#">History</a></li>
+                    <li><a href="#">Geography</a></li>
+                    <li><a href="#">Economics</a></li>
+                    <li><a href="#">Political Science</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Mathematics</a></li>
+              <li><a href="#">Computer</a></li>
+            </ul>
       </li>
-      <li><a href="#">Options</a></li>
+      <li><a href="#">Class IX</a>
+            <ul>
+              <li><a href="#">English</a></li>
+              <li><a href="#">Science</a>
+                <ul>
+                    <li><a href="#">Physics</a></li>
+                    <li><a href="#">Chemistry</a></li>
+                    <li><a href="#">Biology</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Social Science</a>
+                <ul>
+                    <li><a href="#">History</a></li>
+                    <li><a href="#">Geography</a></li>
+                    <li><a href="#">Economics</a></li>
+                    <li><a href="#">Political Science</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Mathematics</a></li>
+              <li><a href="#">Computer</a></li>
+            </ul>
+      </li>
+      <li><a href="#">Class X</a>
+            <ul>
+              <li><a href="#">English</a></li>
+              <li><a href="#">Science</a>
+                <ul>
+                    <li><a href="#">Physics</a></li>
+                    <li><a href="#">Chemistry</a></li>
+                    <li><a href="#">Biology</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Social Science</a>
+                <ul>
+                    <li><a href="#">History</a></li>
+                    <li><a href="#">Geography</a></li>
+                    <li><a href="#">Economics</a></li>
+                    <li><a href="#">Political Science</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Mathematics</a></li>
+              <li><a href="#">Computer</a></li>
+            </ul>
+      </li>
+      <li><a href="#">Class XI</a>
+            <ul>
+                <li><a href="#">English</a></li>
+                <li><a href="#">Physics</a></li>
+                <li><a href="#">Chemistry</a></li>
+                <li><a href="#">Mathematics</a></li>
+                <li><a href="#">Biology</a></li>
+                <li><a href="#">Computer Science</a></li>
+                <li><a href="#">Biotechnology</a></li>
+            </ul>
+      </li>
+      <li><a href="#">Class XII</a>
+            <ul>
+                <li><a href="#">English</a></li>
+                <li><a href="#">Physics</a></li>
+                <li><a href="#">Chemistry</a></li>
+                <li><a href="#">Mathematics</a></li>
+                <li><a href="#">Biology</a></li>
+                <li><a href="#">Computer Science</a></li>
+                <li><a href="#">Biotechnology</a></li>
+            </ul>  
+      </li>
     </ul>
   </li>
-  <li><a href="#">About Us</a></li>
-</ul>
-                        </nav>
+  <li><a href="#">ICSE/ISC</a>
+    <ul>
+      <li><a href="#">Classes I-VI</a>
+          <ul>
+              <li><a href="#">English</a></li>
+              <li><a href="#">Science</a></li>
+              <li><a href="#">Social Science</a></li>
+              <li><a href="#">Mathematics</a></li>
+              <li><a href="#">Computer</a></li>
+          </ul>           
+      </li>
+      <li><a href="#">Class VII</a>
+            <ul>
+              <li><a href="#">English</a></li>
+              <li><a href="#">Science</a>
+                <ul>
+                    <li><a href="#">Physics</a></li>
+                    <li><a href="#">Chemistry</a></li>
+                    <li><a href="#">Biology</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Social Science</a>
+                <ul>
+                    <li><a href="#">History</a></li>
+                    <li><a href="#">Geography</a></li>
+                    <li><a href="#">Economics</a></li>
+                    <li><a href="#">Political Science</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Mathematics</a></li>
+              <li><a href="#">Computer</a></li>
+            </ul>           
+      </li>
+      <li><a href="#">Class VIII</a>
+            <ul>
+              <li><a href="#">English</a></li>
+              <li><a href="#">Science</a>
+                <ul>
+                    <li><a href="#">Physics</a></li>
+                    <li><a href="#">Chemistry</a></li>
+                    <li><a href="#">Biology</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Social Science</a>
+                <ul>
+                    <li><a href="#">History</a></li>
+                    <li><a href="#">Geography</a></li>
+                    <li><a href="#">Economics</a></li>
+                    <li><a href="#">Political Science</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Mathematics</a></li>
+              <li><a href="#">Computer</a></li>
+            </ul>
+      </li>
+      <li><a href="#">Class IX</a>
+            <ul>
+              <li><a href="#">English</a></li>
+              <li><a href="#">Science</a>
+                <ul>
+                    <li><a href="#">Physics</a></li>
+                    <li><a href="#">Chemistry</a></li>
+                    <li><a href="#">Biology</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Social Science</a>
+                <ul>
+                    <li><a href="#">History</a></li>
+                    <li><a href="#">Geography</a></li>
+                    <li><a href="#">Economics</a></li>
+                    <li><a href="#">Political Science</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Mathematics</a></li>
+              <li><a href="#">Computer</a></li>
+            </ul>
+      </li>
+      <li><a href="#">Class X</a>
+            <ul>
+              <li><a href="#">English</a></li>
+              <li><a href="#">Science</a>
+                <ul>
+                    <li><a href="#">Physics</a></li>
+                    <li><a href="#">Chemistry</a></li>
+                    <li><a href="#">Biology</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Social Science</a>
+                <ul>
+                    <li><a href="#">History</a></li>
+                    <li><a href="#">Geography</a></li>
+                    <li><a href="#">Economics</a></li>
+                    <li><a href="#">Political Science</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Mathematics</a></li>
+              <li><a href="#">Computer</a></li>
+            </ul>
+      </li>
+      <li><a href="#">Class XI</a>
+            <ul>
+                <li><a href="#">English</a></li>
+                <li><a href="#">Physics</a></li>
+                <li><a href="#">Chemistry</a></li>
+                <li><a href="#">Mathematics</a></li>
+                <li><a href="#">Biology</a></li>
+                <li><a href="#">Computer Science</a></li>
+                <li><a href="#">Biotechnology</a></li>
+            </ul>
+      </li>
+      <li><a href="#">Class XII</a>
+            <ul>
+                <li><a href="#">English</a></li>
+                <li><a href="#">Physics</a></li>
+                <li><a href="#">Chemistry</a></li>
+                <li><a href="#">Mathematics</a></li>
+                <li><a href="#">Biology</a></li>
+                <li><a href="#">Computer Science</a></li>
+                <li><a href="#">Biotechnology</a></li>
+            </ul>  
+      </li>
+    </ul>
+  </li>
+  <li><a href="#about_us">ABOUT US</a></li>
+  <li><a href="#contact_us">CONTACT US</a></li>
+ </ul> 
+</nav>
                     </div>
                     <div class="col-md-2 col-sm-12">
-                        <div class="irs-log-reg">
+                    <div id="nav_login">
                             <a href="#">Login</a>
+                    </div>
                         </div>
                     </div>
                 </div>
@@ -226,7 +457,7 @@ a:link, a:visited
     </section>
     <!-- Main slider end -->
     <!-- Discription start -->
-    <section class="irs-discription-field">
+    <section id="about_us" class="irs-discription-field">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -440,7 +671,7 @@ a:link, a:visited
     <!-- Teachers start -->
     <!-- Teachers  end -->
     <!-- MAP -->
-    <section class="irs-contact-field">
+    <section id="contact_us" class="irs-contact-field">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
