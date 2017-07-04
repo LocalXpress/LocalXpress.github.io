@@ -19,7 +19,7 @@
         background:white;
         color:black;
         font-family: 'Oxygen', sans-serif;
-        font-size:15px;
+        font-size:16px;
 
     }
 
@@ -37,7 +37,7 @@ li ul { display: none; }
 
 ul li a {
   display: block;
-  padding: 1em;
+  padding: 0.5em;
   text-decoration: none;
   white-space: nowrap;
   color: black;
@@ -68,7 +68,7 @@ li:hover li a:hover { background:white;}
 /* Displays second level dropdowns to the right of the first level dropdown */
 ul ul ul {
   left: 100%;
-  top: 0;
+  top: 0%;
 }
 /* Simple clearfix */
 ul:before,
@@ -145,11 +145,12 @@ a:link, a:visited
   text-transform: uppercase;
   padding-top: 5px;
   padding-bottom: 5px;
+  text-align:center;
 }
 #left_nav_bar a:hover
 {
   color:#009688;
-  font-size: 15px;
+  font-size: 16px;
 }
 </style>
 
@@ -159,7 +160,7 @@ a:link, a:visited
         <div class="irs-header-nav">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-9 col-sm-12">
+                    <div class="col-md-10 col-sm-12">
                         <!--<nav class="navbar navbar-default irs-navbar">
                             <div class="container-fluid">-->
                                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -429,11 +430,8 @@ a:link, a:visited
  </ul> 
 </nav>
                     </div>
-                    <div class="col-md-3 col-sm-12">
+                    <div class="col-md-2 col-sm-12">
                       <div id="left_nav_bar">
-                      <p><a href="#courses">COURSES OFFERED</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                      <a href="#about_us">ABOUT US</a></p>
-                      <p><a href="#gallery">GALLERY</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                       <a href="#contact_us">CONTACT US</a></p>
                       </div>
                     </div>

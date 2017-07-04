@@ -1,5 +1,7 @@
+<head>
+<title>DOCUMENT</title>
+</head>
 <script type="text/javascript">
-
 if (document.layers) {
     document.captureEvents(Event.MOUSEDOWN);
     document.onmousedown = function () {
@@ -28,18 +30,29 @@ document.onkeydown = function (e) {
   } 
   else if(key==93)
   {
-  	alert("Invalid");
+    alert("Invalid");
   }
   else {
-  	alert("Invalid");
+    alert("Invalid");
     e.preventDefault();
-  }	     
+  }      
 }
 function put_pdf()
 {
-  document.getElementById("gg").setAttribute("src", "sample.pdf#toolbar=0&navpanes=0&scrollbar=0");
+        var params = {};
+        if (location.search) {
+        var parts = location.search.substring(1).split('&');
+        for (var i = 0; i < parts.length; i++) {
+        var nv = parts[i].split('=');
+        if (!nv[0]) continue;
+        params[nv[0]] = nv[1] || true;
+            }
+        }
+        id=params.id;
+        id+="#toolbar=0&navpanes=0&scrollbar=0";
+        document.getElementById("gg").setAttribute("src",id);
 }
 </script>
 <body onload="put_pdf();">
-<embed id="gg" src="" width="100%" height="100%"/>
+<iframe id="gg" src="" style="width:100%; height:100%;" frameborder="0"></iframe>
 </bod>
