@@ -50,10 +50,10 @@ ul li a:hover { background:white; color:black;}
 
 li:hover > ul {
   display: block;
-  position: absolute;
+  position:absolute;
 }
 
-li:hover li { float: none; }
+li:hover li { float:none; }
 
 li:hover a { background:white; }
 
@@ -164,141 +164,146 @@ a:link, a:visited
                             <div class="container-fluid">-->
                                 <!-- Brand and toggle get grouped for better mobile display -->
 <ul class="main-navigation">
-  <li><a href="#">Home</a></li>
-  <li><a href="#">OLYMPIAD EXAMINNATIONS</a>
+  <li><a href="#">HOME</a></li>
+  <li><a href="#">COMPETITIVE EXAMINATIONS</a>
      <ul>
-        <li><a href="">Science Olympiad&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-        <li><a href="course_PDF.php?id=1" target="_blank">Maths Olympiad</a></li>
-        <li><a href="course_PDF.php?id=2">Computer Olympiad</a></li>
-        <li><a href="#">English Olympiad</a></li>
-        <li><a href="#">KVPY</a></li>
-        <li><a href="#">NEST</a></li>
-        <li><a href="#">IISER</a></li>
-        <li><a href="#">JEE(Mains & Advanced)</a></li>
-        <li><a href="#">NEET</a></li>
-        <li><a href="#">WBJEE</a></li>   
-    </ul>
+        <li><a href="">Olympiads&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+          <ul>
+            <li><a href="course_PDF.php?id=211" target="_blank">Science Olympiad</a></li>
+            <li><a href="course_PDF.php?id=212" target="_blank">Maths Olympiad</a></li>
+            <li><a href="course_PDF.php?id=213" target="_blank">Computer Olympiad</a></li>
+            <li><a href="course_PDF.php?id=214" target="_blank">English Olympiad</a></li>          
+          </ul>
+        </li>
+        <li><a href="course_PDF.php?id=22" target="_blank">NEET</a></li>
+        <li><a href="course_PDF.php?id=23" target="_blank">JEE(Mains & Advanced)</a></li>
+        <li><a href="course_PDF.php?id=24" target="_blank">WBJEE</a></li>   
+        <li><a href="course_PDF.php?id=25" target="_blank">NTSE</a></li>
+        <li><a href="course_PDF.php?id=26" target="_blank">KVPY</a></li>
+        <li><a href="course_PDF.php?id=27" target="_blank">IISER</a></li>
+        <li><a href="course_PDF.php?id=28" target="_blank">NEST</a></li>
+      </ul>
   </li>
   
   <li><a href="#">CBSE</a>
     <ul>
       <li><a href="#">Classes I-VI</a>
           <ul>
-              <li><a href="#">English</a></li>
-              <li><a href="#">Science</a></li>
-              <li><a href="#">Social Science</a></li>
-              <li><a href="#">Mathematics</a></li>
-              <li><a href="#">Computer</a></li>
+              <li><a href="course_PDF.php?id=311" target="_blank">English</a></li>
+              <li><a href="course_PDF.php?id=312" target="_blank">Science</a></li>
+              <li><a href="course_PDF.php?id=313" target="_blank">Social Science</a></li>
+              <li><a href="course_PDF.php?id=314" target="_blank">Mathematics</a></li>
+              <li><a href="course_PDF.php?id=315" target="_blank">Computer</a></li>
           </ul>           
       </li>
       <li><a href="#">Class VII</a>
             <ul>
-              <li><a href="#">English</a></li>
+              <li><a href="course_PDF.php?id=321" target="_blank">English</a></li>
               <li><a href="#">Science</a>
                 <ul>
-                    <li><a href="#">Physics</a></li>
-                    <li><a href="#">Chemistry</a></li>
-                    <li><a href="#">Biology</a></li>
+                    <li><a href="course_PDF.php?id=3221" target="_blank">Physics</a></li>
+                    <li><a href="course_PDF.php?id=3222" target="_blank">Chemistry</a></li>
+                    <li><a href="course_PDF.php?id=3223" target="_blank">Biology</a></li>
                 </ul>
               </li>
               <li><a href="#">Social Science</a>
                 <ul>
-                    <li><a href="#">History</a></li>
-                    <li><a href="#">Geography</a></li>
-                    <li><a href="#">Economics</a></li>
-                    <li><a href="#">Political Science</a></li>
+                    <li><a href="course_PDF.php?id=3231" target="_blank">History</a></li>
+                    <li><a href="course_PDF.php?id=3232" target="_blank">Geography</a></li>
+                    <li><a href="course_PDF.php?id=3233" target="_blank">Economics</a></li>
+                    <li><a href="course_PDF.php?id=3234" target="_blank">Political Science</a></li>
                 </ul>
               </li>
-              <li><a href="#">Mathematics</a></li>
-              <li><a href="#">Computer</a></li>
+              <li><a href="course_PDF.php?id=324" target="_blank">Mathematics</a></li>
+              <li><a href="course_PDF.php?id=325" target="_blank">Computer</a></li>
             </ul>           
       </li>
       <li><a href="#">Class VIII</a>
             <ul>
-              <li><a href="#">English</a></li>
+              <li><a href="course_PDF.php?id=331" target="_blank">English</a></li>
               <li><a href="#">Science</a>
                 <ul>
-                    <li><a href="#">Physics</a></li>
-                    <li><a href="#">Chemistry</a></li>
-                    <li><a href="#">Biology</a></li>
+                    <li><a href="course_PDF.php?id=3321" target="_blank">Physics</a></li>
+                    <li><a href="course_PDF.php?id=3322" target="_blank">Chemistry</a></li>
+                    <li><a href="course_PDF.php?id=3323" target="_blank">Biology</a></li>
                 </ul>
               </li>
               <li><a href="#">Social Science</a>
                 <ul>
-                    <li><a href="#">History</a></li>
-                    <li><a href="#">Geography</a></li>
-                    <li><a href="#">Economics</a></li>
-                    <li><a href="#">Political Science</a></li>
+                    <li><a href="course_PDF.php?id=3331" target="_blank">History</a></li>
+                    <li><a href="course_PDF.php?id=3332" target="_blank">Geography</a></li>
+                    <li><a href="course_PDF.php?id=3333" target="_blank">Economics</a></li>
+                    <li><a href="course_PDF.php?id=3334" target="_blank">Political Science</a></li>
                 </ul>
               </li>
-              <li><a href="#">Mathematics</a></li>
-              <li><a href="#">Computer</a></li>
+              <li><a href="course_PDF.php?id=334" target="_blank">Mathematics</a></li>
+              <li><a href="course_PDF.php?id=335" target="_blank">Computer</a></li>
             </ul>
       </li>
       <li><a href="#">Class IX</a>
             <ul>
-              <li><a href="#">English</a></li>
+              <li><a href="course_PDF.php?id=341" target="_blank">English</a></li>
               <li><a href="#">Science</a>
                 <ul>
-                    <li><a href="#">Physics</a></li>
-                    <li><a href="#">Chemistry</a></li>
-                    <li><a href="#">Biology</a></li>
+                    <li><a href="course_PDF.php?id=3421" target="_blank">Physics</a></li>
+                    <li><a href="course_PDF.php?id=3422" target="_blank">Chemistry</a></li>
+                    <li><a href="course_PDF.php?id=3423" target="_blank">Biology</a></li>
                 </ul>
               </li>
               <li><a href="#">Social Science</a>
                 <ul>
-                    <li><a href="#">History</a></li>
-                    <li><a href="#">Geography</a></li>
-                    <li><a href="#">Economics</a></li>
-                    <li><a href="#">Political Science</a></li>
+                    <li><a href="course_PDF.php?id=3431" target="_blank">History</a></li>
+                    <li><a href="course_PDF.php?id=3432" target="_blank">Geography</a></li>
+                    <li><a href="course_PDF.php?id=3433" target="_blank">Economics</a></li>
+                    <li><a href="course_PDF.php?id=3434" target="_blank">Political Science</a></li>
                 </ul>
               </li>
-              <li><a href="#">Mathematics</a></li>
-              <li><a href="#">Computer</a></li>
+              <li><a href="course_PDF.php?id=344" target="_blank">Mathematics</a></li>
+              <li><a href="course_PDF.php?id=345" target="_blank">Computer</a></li>
             </ul>
       </li>
       <li><a href="#">Class X</a>
             <ul>
-              <li><a href="#">English</a></li>
+              <li><a href="course_PDF.php?id=351" target="_blank">English</a></li>
               <li><a href="#">Science</a>
                 <ul>
-                    <li><a href="#">Physics</a></li>
-                    <li><a href="#">Chemistry</a></li>
-                    <li><a href="#">Biology</a></li>
+                    <li><a href="course_PDF.php?id=3521" target="_blank">Physics</a></li>
+                    <li><a href="course_PDF.php?id=3522" target="_blank">Chemistry</a></li>
+                    <li><a href="course_PDF.php?id=3523" target="_blank">Biology</a></li>
                 </ul>
               </li>
               <li><a href="#">Social Science</a>
                 <ul>
-                    <li><a href="#">History</a></li>
-                    <li><a href="#">Geography</a></li>
-                    <li><a href="#">Economics</a></li>
-                    <li><a href="#">Political Science</a></li>
+                    <li><a href="course_PDF.php?id=3531" target="_blank">History</a></li>
+                    <li><a href="course_PDF.php?id=3532" target="_blank">Geography</a></li>
+                    <li><a href="course_PDF.php?id=3533" target="_blank">Economics</a></li>
+                    <li><a href="course_PDF.php?id=3534" target="_blank">Political Science</a></li>
                 </ul>
               </li>
-              <li><a href="#">Mathematics</a></li>
-              <li><a href="#">Computer</a></li>
+              <li><a href="course_PDF.php?id=354" target="_blank">Mathematics</a></li>
+              <li><a href="course_PDF.php?id=355" target="_blank">Computer</a></li>
             </ul>
       </li>
       <li><a href="#">Class XI</a>
             <ul>
-                <li><a href="#">English</a></li>
-                <li><a href="#">Physics</a></li>
-                <li><a href="#">Chemistry</a></li>
-                <li><a href="#">Mathematics</a></li>
-                <li><a href="#">Biology</a></li>
-                <li><a href="#">Computer Science</a></li>
-                <li><a href="#">Biotechnology</a></li>
+                <li><a href="course_PDF.php?id=361" target="_blank">English</a></li>
+                <li><a href="course_PDF.php?id=362" target="_blank">Physics</a></li>
+                <li><a href="course_PDF.php?id=363" target="_blank">Chemistry</a></li>
+                <li><a href="course_PDF.php?id=364" target="_blank">Mathematics</a></li>
+                <li><a href="course_PDF.php?id=365" target="_blank">Biology</a></li>
+                <li><a href="course_PDF.php?id=366" target="_blank">Computer Science</a></li>
+                <li><a href="course_PDF.php?id=367" target="_blank">Biotechnology</a></li>
             </ul>
       </li>
       <li><a href="#">Class XII</a>
             <ul>
-                <li><a href="#">English</a></li>
-                <li><a href="#">Physics</a></li>
-                <li><a href="#">Chemistry</a></li>
-                <li><a href="#">Mathematics</a></li>
-                <li><a href="#">Biology</a></li>
-                <li><a href="#">Computer Science</a></li>
-                <li><a href="#">Biotechnology</a></li>
+                <li><a href="course_PDF.php?id=371" target="_blank">English</a></li>
+                <li><a href="course_PDF.php?id=372" target="_blank">Physics</a></li>
+                <li><a href="course_PDF.php?id=373" target="_blank">Chemistry</a></li>
+                <li><a href="course_PDF.php?id=374" target="_blank">Mathematics</a></li>
+                <li><a href="course_PDF.php?id=375" target="_blank">Biology</a></li>
+                <li><a href="course_PDF.php?id=376" target="_blank">Computer Science</a></li>
+                <li><a href="course_PDF.php?id=377" target="_blank">Biotechnology</a></li>
             </ul>  
       </li>
     </ul>
@@ -307,122 +312,196 @@ a:link, a:visited
     <ul>
       <li><a href="#">Classes I-VI</a>
           <ul>
-              <li><a href="#">English</a></li>
-              <li><a href="#">Science</a></li>
-              <li><a href="#">Social Science</a></li>
-              <li><a href="#">Mathematics</a></li>
-              <li><a href="#">Computer</a></li>
+              <li><a href="course_PDF.php?id=411" target="_blank">English</a></li>
+              <li><a href="course_PDF.php?id=412" target="_blank">Science</a></li>
+              <li><a href="course_PDF.php?id=413" target="_blank">Social Science</a></li>
+              <li><a href="course_PDF.php?id=414" target="_blank">Mathematics</a></li>
+              <li><a href="course_PDF.php?id=415" target="_blank">Computer</a></li>
           </ul>           
       </li>
       <li><a href="#">Class VII</a>
             <ul>
-              <li><a href="#">English</a></li>
+              <li><a href="course_PDF.php?id=421" target="_blank">English</a></li>
               <li><a href="#">Science</a>
                 <ul>
-                    <li><a href="#">Physics</a></li>
-                    <li><a href="#">Chemistry</a></li>
-                    <li><a href="#">Biology</a></li>
+                    <li><a href="course_PDF.php?id=4221" target="_blank">Physics</a></li>
+                    <li><a href="course_PDF.php?id=4222" target="_blank">Chemistry</a></li>
+                    <li><a href="course_PDF.php?id=4223" target="_blank">Biology</a></li>
                 </ul>
               </li>
               <li><a href="#">Social Science</a>
                 <ul>
-                    <li><a href="#">History</a></li>
-                    <li><a href="#">Geography</a></li>
-                    <li><a href="#">Economics</a></li>
-                    <li><a href="#">Political Science</a></li>
+                    <li><a href="course_PDF.php?id=4231" target="_blank">History</a></li>
+                    <li><a href="course_PDF.php?id=4232" target="_blank">Geography</a></li>
+                    <li><a href="course_PDF.php?id=4233" target="_blank">Economics</a></li>
+                    <li><a href="course_PDF.php?id=4234" target="_blank">Political Science</a></li>
                 </ul>
               </li>
-              <li><a href="#">Mathematics</a></li>
-              <li><a href="#">Computer</a></li>
+              <li><a href="course_PDF.php?id=424" target="_blank">Mathematics</a></li>
+              <li><a href="course_PDF.php?id=425" target="_blank">Computer</a></li>
             </ul>           
       </li>
       <li><a href="#">Class VIII</a>
             <ul>
-              <li><a href="#">English</a></li>
+              <li><a href="course_PDF.php?id=431" target="_blank">English</a></li>
               <li><a href="#">Science</a>
                 <ul>
-                    <li><a href="#">Physics</a></li>
-                    <li><a href="#">Chemistry</a></li>
-                    <li><a href="#">Biology</a></li>
+                    <li><a href="course_PDF.php?id=4321" target="_blank">Physics</a></li>
+                    <li><a href="course_PDF.php?id=4322" target="_blank">Chemistry</a></li>
+                    <li><a href="course_PDF.php?id=4323" target="_blank">Biology</a></li>
                 </ul>
               </li>
               <li><a href="#">Social Science</a>
                 <ul>
-                    <li><a href="#">History</a></li>
-                    <li><a href="#">Geography</a></li>
-                    <li><a href="#">Economics</a></li>
-                    <li><a href="#">Political Science</a></li>
+                    <li><a href="course_PDF.php?id=4331" target="_blank">History</a></li>
+                    <li><a href="course_PDF.php?id=4332" target="_blank">Geography</a></li>
+                    <li><a href="course_PDF.php?id=4333" target="_blank">Economics</a></li>
+                    <li><a href="course_PDF.php?id=4334" target="_blank">Political Science</a></li>
                 </ul>
               </li>
-              <li><a href="#">Mathematics</a></li>
-              <li><a href="#">Computer</a></li>
+              <li><a href="course_PDF.php?id=434" target="_blank">Mathematics</a></li>
+              <li><a href="course_PDF.php?id=435" target="_blank">Computer</a></li>
             </ul>
       </li>
       <li><a href="#">Class IX</a>
             <ul>
-              <li><a href="#">English</a></li>
+              <li><a href="course_PDF.php?id=441" target="_blank">English</a></li>
               <li><a href="#">Science</a>
                 <ul>
-                    <li><a href="#">Physics</a></li>
-                    <li><a href="#">Chemistry</a></li>
-                    <li><a href="#">Biology</a></li>
+                    <li><a href="course_PDF.php?id=4421" target="_blank">Physics</a></li>
+                    <li><a href="course_PDF.php?id=4422" target="_blank">Chemistry</a></li>
+                    <li><a href="course_PDF.php?id=4423" target="_blank">Biology</a></li>
                 </ul>
               </li>
               <li><a href="#">Social Science</a>
                 <ul>
-                    <li><a href="#">History</a></li>
-                    <li><a href="#">Geography</a></li>
-                    <li><a href="#">Economics</a></li>
-                    <li><a href="#">Political Science</a></li>
+                    <li><a href="course_PDF.php?id=4431" target="_blank">History</a></li>
+                    <li><a href="course_PDF.php?id=4432" target="_blank">Geography</a></li>
+                    <li><a href="course_PDF.php?id=4433" target="_blank">Economics</a></li>
+                    <li><a href="course_PDF.php?id=4434" target="_blank">Political Science</a></li>
                 </ul>
               </li>
-              <li><a href="#">Mathematics</a></li>
-              <li><a href="#">Computer</a></li>
+              <li><a href="course_PDF.php?id=444" target="_blank">Mathematics</a></li>
+              <li><a href="course_PDF.php?id=445" target="_blank">Computer</a></li>
             </ul>
       </li>
       <li><a href="#">Class X</a>
             <ul>
-              <li><a href="#">English</a></li>
+              <li><a href="course_PDF.php?id=451" target="_blank">English</a></li>
               <li><a href="#">Science</a>
                 <ul>
-                    <li><a href="#">Physics</a></li>
-                    <li><a href="#">Chemistry</a></li>
-                    <li><a href="#">Biology</a></li>
+                    <li><a href="course_PDF.php?id=4521" target="_blank">Physics</a></li>
+                    <li><a href="course_PDF.php?id=4522" target="_blank">Chemistry</a></li>
+                    <li><a href="course_PDF.php?id=4523" target="_blank">Biology</a></li>
                 </ul>
               </li>
               <li><a href="#">Social Science</a>
                 <ul>
-                    <li><a href="#">History</a></li>
-                    <li><a href="#">Geography</a></li>
-                    <li><a href="#">Economics</a></li>
-                    <li><a href="#">Political Science</a></li>
+                    <li><a href="course_PDF.php?id=4531" target="_blank">History</a></li>
+                    <li><a href="course_PDF.php?id=4532" target="_blank">Geography</a></li>
+                    <li><a href="course_PDF.php?id=4533" target="_blank">Economics</a></li>
+                    <li><a href="course_PDF.php?id=4534" target="_blank">Political Science</a></li>
                 </ul>
               </li>
-              <li><a href="#">Mathematics</a></li>
-              <li><a href="#">Computer</a></li>
+              <li><a href="course_PDF.php?id=454" target="_blank">Mathematics</a></li>
+              <li><a href="course_PDF.php?id=455" target="_blank">Computer</a></li>
             </ul>
       </li>
       <li><a href="#">Class XI</a>
             <ul>
-                <li><a href="#">English</a></li>
-                <li><a href="#">Physics</a></li>
-                <li><a href="#">Chemistry</a></li>
-                <li><a href="#">Mathematics</a></li>
-                <li><a href="#">Biology</a></li>
-                <li><a href="#">Computer Science</a></li>
-                <li><a href="#">Biotechnology</a></li>
+                <li><a href="course_PDF.php?id=461" target="_blank">English</a></li>
+                <li><a href="course_PDF.php?id=462" target="_blank">Physics</a></li>
+                <li><a href="course_PDF.php?id=463" target="_blank">Chemistry</a></li>
+                <li><a href="course_PDF.php?id=464" target="_blank">Mathematics</a></li>
+                <li><a href="course_PDF.php?id=465" target="_blank">Biology</a></li>
+                <li><a href="course_PDF.php?id=466" target="_blank">Computer Science</a></li>
+                <li><a href="course_PDF.php?id=467" target="_blank">Biotechnology</a></li>
             </ul>
       </li>
       <li><a href="#">Class XII</a>
             <ul>
-                <li><a href="#">English</a></li>
-                <li><a href="#">Physics</a></li>
-                <li><a href="#">Chemistry</a></li>
-                <li><a href="#">Mathematics</a></li>
-                <li><a href="#">Biology</a></li>
-                <li><a href="#">Computer Science</a></li>
-                <li><a href="#">Biotechnology</a></li>
+                <li><a href="course_PDF.php?id=471" target="_blank">English</a></li>
+                <li><a href="course_PDF.php?id=472" target="_blank">Physics</a></li>
+                <li><a href="course_PDF.php?id=473" target="_blank">Chemistry</a></li>
+                <li><a href="course_PDF.php?id=474" target="_blank">Mathematics</a></li>
+                <li><a href="course_PDF.php?id=475" target="_blank">Biology</a></li>
+                <li><a href="course_PDF.php?id=476" target="_blank">Computer Science</a></li>
+                <li><a href="course_PDF.php?id=477" target="_blank">Biotechnology</a></li>
             </ul>  
+      </li>
+    </ul>
+  </li>
+  <li><a href="#">NCERT</a>
+    <ul>
+      <li><a href="course_PDF.php?id=51" target="_blank">Textbook</a>
+      <li><a href="course_PDF.php?id=52" target="_blank">Textbook Solution</a>
+      <li><a href="course_PDF.php?id=53" target="_blank">Exemplar</a>
+      <li><a href="course_PDF.php?id=54" target="_blank">Exemplar Solution</a>
+      <li><a href="course_PDF.php?id=55" target="_blank">Lab Manual</a>
+    </ul>
+  </li>
+  <li><a href="#">MOCK TESTS</a>
+    <ul>
+      <li><a href="">Olympiads&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+          <ul>
+            <li><a href="course_PDF.php?id=611" target="_blank">Science Olympiad</a></li>
+            <li><a href="course_PDF.php?id=612" target="_blank">Maths Olympiad</a></li>
+            <li><a href="course_PDF.php?id=613" target="_blank">Computer Olympiad</a></li>
+            <li><a href="course_PDF.php?id=614" target="_blank">English Olympiad</a></li>          
+          </ul>
+        </li>
+        <li><a href="course_PDF.php?id=62" target="_blank">NEET</a></li>
+        <li><a href="course_PDF.php?id=63" target="_blank">JEE(Mains & Advanced)</a></li>
+        <li><a href="course_PDF.php?id=64" target="_blank">WBJEE</a></li>   
+        <li><a href="course_PDF.php?id=65" target="_blank">NTSE</a></li>
+        <li><a href="course_PDF.php?id=66" target="_blank">KVPY</a></li>
+        <li><a href="course_PDF.php?id=67" target="_blank">IISER</a></li>
+        <li><a href="course_PDF.php?id=68" target="_blank">NEST</a></li>
+    </ul>
+  </li>
+  <li><a href="#">STUDY MATERIALS</a>
+    <ul>
+      <li><a href="#">Class XII</a>
+        <ul>
+          <li><a href="course_PDF.php?id=711" target="_blank">CBSE</a></li>
+          <li><a href="course_PDF.php?id=712" target="_blank">ISC</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Class XI</a>
+        <ul>
+          <li><a href="course_PDF.php?id=721" target="_blank">CBSE</a></li>
+          <li><a href="course_PDF.php?id=722" target="_blank">ISC</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Class X</a>
+        <ul>
+          <li><a href="course_PDF.php?id=731" target="_blank">CBSE</a></li>
+          <li><a href="course_PDF.php?id=732" target="_blank">ICSE</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Class IX</a>
+        <ul>
+          <li><a href="course_PDF.php?id=741" target="_blank">CBSE</a></li>
+          <li><a href="course_PDF.php?id=742" target="_blank">ICSE</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Class VIII</a>
+        <ul>
+          <li><a href="course_PDF.php?id=751" target="_blank">CBSE</a></li>
+          <li><a href="course_PDF.php?id=752" target="_blank">ICSE</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Class VII</a>
+        <ul>
+          <li><a href="course_PDF.php?id=761" target="_blank">CBSE</a></li>
+          <li><a href="course_PDF.php?id=762" target="_blank">ICSE</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Class I-VI</a>
+        <ul>
+          <li><a href="course_PDF.php?id=771" target="_blank">CBSE</a></li>
+          <li><a href="course_PDF.php?id=772" target="_blank">ICSE</a></li>
+        </ul>
       </li>
     </ul>
   </li>
@@ -449,12 +528,18 @@ a:link, a:visited
             <!-- Indicators -->
             <ol class="carousel-indicators">
             <div id="subject_pane">
-            		<button class="button button1"><i class="fa fa-flask">
+            		<button class="button button1"><i class="fa fa-rocket">
             		<a href="Course_PDF.html">Physics</a></i></button>
-                    <button class="button button1"><a href="Course_PDF.html">Chemistry</a></button>
-                    <button class="button button1"><a href="Course_PDF.html">Biology</a></button>
-                    <button class="button button1"><a href="Course_PDF.html">Mathematics</a></button>
-                    <button class="button button1"><a href="Course_PDF.html">Biotechnology</a></button>
+                    <button class="button button1"><i class="fa fa-flask">
+                    <a href="Course_PDF.html">Chemistry</a></i></button>
+                    <button class="button button1"><i class="fa fa-heartbeat">
+                    <a href="Course_PDF.html">Biology</a></i></button>
+                    <button class="button button1"><i class="fa fa-percent">
+                    <a href="Course_PDF.html">Mathematics</a></i></button>
+                    <button class="button button1"><i class="fa fa-laptop">
+                    <a href="Course_PDF.html">Computer Science</a></i></button>
+                    <button class="button button1"><i class="fa fa-venus-double">
+                    <a href="Course_PDF.html">Biotechnology</a></i></button>
             </div>
             </ol>
             <!-- Wrapper for slides -->
