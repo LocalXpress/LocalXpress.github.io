@@ -76,7 +76,7 @@ ol {
     margin: 0;
     padding: 0;
 }
-a {
+a { 
     color: #808080;
     text-decoration: none;
 }
@@ -186,7 +186,7 @@ h6 {
 }
 
 
-/* ========== Button css start ========== */
+/* ========== Button css start ========== */ 
 .irs-btn-transparent {
     padding: 4px 22px;
     background: none;
@@ -223,7 +223,7 @@ h6 {
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; 
 }
 .irs-btn-transparent-two:hover {
     color: #ffffff;
@@ -258,7 +258,7 @@ h6 {
 }
 .irs-big-btn {
     background-color: #009688;
-    font-color:white;
+    color: #ffffff;
     font-size: 16px;
     font-weight: 400;
     text-transform: uppercase;
@@ -279,7 +279,7 @@ h6 {
 }
 .irs-big-btn:hover {
     color: #ffffff;
-    background: #009688;
+    background: #ea8e40;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
@@ -368,8 +368,8 @@ h6 {
     border: none;
     background-color: transparent;
 }
-.irs-navbar .navbar-nav>.active>a,
-.irs-navbar .navbar-nav>.active>a:focus,
+.irs-navbar .navbar-nav>.active>a, 
+.irs-navbar .navbar-nav>.active>a:focus, 
 .irs-navbar .navbar-nav>.active>a:hover {
     color: #009688;
     background: transparent;
@@ -430,9 +430,9 @@ h6 {
     color: #ffffff;
 }
 
-/***Header two**
+/***Header two***/
 .ire-header-two {
-    /*position: fixed;
+    position: fixed;
     left: 0;
     top: 0;
     z-index: 9999;
@@ -448,7 +448,7 @@ h6 {
 }
 .ire-header-two .irs-navbar .navbar-nav>li>a:hover {
     color: #009688;
-}*/
+} 
 .smaller {
     background: #ffffff;
     -webkit-box-shadow: 0px 8px 12px -10px rgba(0,0,0,0.75);
@@ -498,8 +498,8 @@ h6 {
     transition: all 0.3s ease-in-out;
 }
 .irs-main-slider .irs-big-btn:hover {
-    background: #009688;
-    border-color: #009688;
+    background: #009688;;
+    border-color: #009688;;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
@@ -508,8 +508,8 @@ h6 {
 }
 .fade-carousel .carousel-indicators > li {
     margin: 0 2px;
-    background-color: #009688;
-    border-color: #009688;
+    background-color: #f39c12;
+    border-color: #f39c12;
     opacity: .7;
 }
 .fade-carousel .carousel-indicators > li.active {
@@ -536,7 +536,7 @@ h6 {
     color: #ffffff;
     font-size: 40px;
     line-height: 55px;
-    letter-spacing: 1px;
+    letter-spacing: 1px;    
     font-weight: 400;
     text-shadow: none;
     margin: 0;
@@ -557,24 +557,24 @@ h6 {
 .fade-carousel .carousel-inner .item .hero {
     opacity: 0;
     -webkit-transition: 2s all ease-in-out .1s;
-       -moz-transition: 2s all ease-in-out .1s;
-        -ms-transition: 2s all ease-in-out .1s;
-         -o-transition: 2s all ease-in-out .1s;
-            transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s; 
 }
 .fade-carousel .carousel-inner .item.active .hero {
     opacity: 1;
     -webkit-transition: 2s all ease-in-out .1s;
-       -moz-transition: 2s all ease-in-out .1s;
-        -ms-transition: 2s all ease-in-out .1s;
-         -o-transition: 2s all ease-in-out .1s;
-            transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s;    
 }
 
 /********************************/
 /*       Slides backgrounds     */
 /********************************/
-.fade-carousel .slides .slide-1,
+.fade-carousel .slides .slide-1, 
 .fade-carousel .slides .slide-2,
 .fade-carousel .slides .slide-3 {
     height: 100vh;
@@ -583,16 +583,16 @@ h6 {
     background-repeat: no-repeat;
 }
 .fade-carousel .slides .slide-1 {
-   background-image: url(../images/slider/Main_Page.gif);
-   position: relative;
+   background-image: url(../images/slider/1.jpg);
+   position: relative; 
 }
 .fade-carousel .slides .slide-2 {
    background-image: url(../images/slider/2.jpg);
-   position: relative;
+   position: relative; 
 }
 .fade-carousel .slides .slide-3 {
    background-image: url(../images/slider/3.jpg);
-   position: relative;
+   position: relative; 
 }
 .fade-carousel .slides .slide-1:before, .fade-carousel .slides .slide-2:before,
 .fade-carousel .slides .slide-3:before {
@@ -631,10 +631,10 @@ h6 {
 /*          Media Queries       */
 /********************************/
 @media screen and (min-width: 980px){
-    .hero { width: 980px; }
+    .hero { width: 980px; }    
 }
 @media screen and (max-width: 640px){
-    .hero h1 { font-size: 2em; line-height: 1.5em; }
+    .hero h1 { font-size: 2em; line-height: 1.5em; }    
 }
 
 
@@ -716,7 +716,7 @@ h6 {
     transition: all 0.4s ease-in-out;
 }
 .irs-about-icon i {
-    color: #009688;
+    color: #009688;;
     font-size: 40px;
     line-height: 60px;
     -webkit-transition: all 0.4s ease-in-out;
@@ -776,7 +776,7 @@ h6 {
     margin-bottom: 0;
 }
 .irs-divider-field .irs-divider-col .irs-call-numbar h4 i {
-    color: #009688;
+    color: #009688;;
 }
 
 
@@ -784,7 +784,7 @@ h6 {
 
 /* ========== Courses css Start ========== */
 .irs-courses-field {
-    padding: 50px 0 50px;
+    padding: 100px 0 70px;
 }
 .irs-courses-col {
     text-align: center;
@@ -839,7 +839,7 @@ h6 {
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     text-transform: uppercase;
-    background: #009688;
+    background: #009688;;
     padding: 10px 18px;
 }
 .irs-courses-img-text {
@@ -856,7 +856,7 @@ h6 {
     transition: all 0.3s ease-in-out;
 }
 .irs-courses-col:hover .irs-courses-img-text {
-    background: rgba(0, 150, 136, 0.8);
+    background: rgba(244, 164, 96, 0.8);
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
@@ -926,15 +926,15 @@ h6 {
 .irs-course-features ul li:last-child {
     font-size: 20px;
     font-weight: bold;
-    color: #009688;
+    color: #009688;;
     border-bottom: none;
 }
 .irs-course-features ul li span i {
-    color: #009688;
+    color: #009688;;
 }
 .irs-comment-single h3 {
     margin-bottom: 30px;
-    color: #009688;
+    color: #009688;;
 }
 .irs-comment-item {
     position: relative;
@@ -964,7 +964,7 @@ h6 {
     color: #333333;
 }
 .irs-comment-content h4 a:hover, .irs-comment-content h6 a:hover {
-    color: #009688;
+    color: #009688;;
 }
 .irs-live-comment {
     margin-bottom: 60px;
@@ -973,7 +973,7 @@ h6 {
     margin-bottom: 0;
 }
 .irs-live-comment h3 {
-    color: #009688;
+    color: #009688;;
     margin-bottom: 30px;
 }
 .irs-live-comment .form-control {
@@ -987,7 +987,7 @@ h6 {
     resize: none;
 }
 .irs-related-courses h3 {
-    color: #009688;
+    color: #009688;;
     margin-bottom: 30px;
 }
 
@@ -1008,7 +1008,7 @@ h6 {
 }
 .irs-counter-col i {
     font-size: 80px;
-    color: #009688;
+    color: #009688;;
     font-weight: normal;
 }
 .irs-counter-col .irs-funfact {
@@ -1042,7 +1042,7 @@ h6 {
 }
 .irs-sidebar-title {
     font-size: 18px;
-    color: #009688;
+    color: #009688;;
     padding-bottom: 10px;
     margin-bottom: 40px;
     border-bottom: 1px solid rgba(193, 193, 193, 0.5);
@@ -1054,15 +1054,15 @@ h6 {
     box-shadow: none;
 }
 .irs-search-box .form-control:focus {
-    border-color: #009688;
+    border-color: #009688;;
 }
 .irs-search-box  .btn {
     height: 45px;
-    border: 1px solid #009688;
+    border: 1px solid #009688;;
     border-radius: 0;
     padding: 8px 20px;
     color: #ffffff;
-    background: #009688;
+    background: #009688;;
 }
 .irs-post {
     margin-bottom: 50px;
@@ -1084,7 +1084,7 @@ h6 {
     padding-top: 10px;
 }
 .irs-post .irs-post-item span {
-    color: #009688;
+    color: #009688;;
     font-size: 14px;
     text-transform: uppercase;
 }
@@ -1095,7 +1095,7 @@ h6 {
     margin-bottom: 15px;
 }
 .irs-categories ul li a:hover {
-    color: #009688;
+    color: #009688;;
 }
 .irs-categories ul li i {
     margin-right: 10px;
@@ -1119,7 +1119,7 @@ h6 {
     transition: all 0.3s ease-in-out;
 }
 .irs-tag-box ul li a:hover {
-    background: #009688;
+    background: #009688;;
     color: #ffffff;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -1163,7 +1163,7 @@ h6 {
 }
 .irs-testimonial-single {
     background: rgba(28, 28, 28, 0.5);
-    border: 3px solid rgba(0, 150, 136, 0.5);
+    border: 3px solid rgba(244, 164, 96, 0.5);
     padding: 60px 40px 30px;
     text-align: center;
     position: relative;
@@ -1175,7 +1175,7 @@ h6 {
 }
 .irs-testimonial-single .irs-comment-icon i {
     font-size: 110px;
-    color: #009688;
+    color:#009688;;
     opacity: 0.2;
 }
 .irs-testimonial-single p {
@@ -1185,7 +1185,7 @@ h6 {
 .irs-testimonial-single h4 {
     font-family: 'Oxygen', sans-serif;
     font-size: 18px;
-    color: #009688;
+    color: #009688;;
     font-weight: 400;
 }
 .irs-testimonial-single h5 {
@@ -1209,9 +1209,9 @@ h6 {
     -o-border-radius: 0;
     border-radius: 0;
 }
-.irs-testimonial-field .owl-theme .owl-dots .owl-dot.active span,
+.irs-testimonial-field .owl-theme .owl-dots .owl-dot.active span, 
 .irs-testimonial-field .owl-theme .owl-dots .owl-dot:hover span {
-    border: 2px solid #009688;
+    border: 2px solid #009688;;
     background: #ffffff;
 }
 
@@ -1298,7 +1298,7 @@ h6 {
     transition: all 0.4s ease-in-out;
 }
 .irs-teachers-social a i:hover {
-    color: #009688;
+    color:#009688;;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -ms-transition: all 0.4s ease-in-out;
@@ -1310,7 +1310,7 @@ h6 {
 .irs-pagination {
 
 }
-.irs-pagination .pagination>li>a,
+.irs-pagination .pagination>li>a, 
 .irs-pagination .pagination>li>span {
     padding: 8px 18px;
     color: #666666;
@@ -1329,7 +1329,7 @@ h6 {
 }
 .irs-pagination .pagination>li>a:hover {
     color: #ffffff;
-    background: #009688;
+    background: #009688;;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -ms-transition: all 0.4s ease-in-out;
@@ -1354,14 +1354,14 @@ h6 {
     margin-right: 10px;
 }
 .irs-teacher-biography ul li i {
-    color: #009688;
+    color:#009688;;
 }
 .irs-teacher-biography ul li a i {
     margin-right: 5px;
     color: #595959;
 }
 .irs-teacher-biography ul li a i:hover {
-    color: #009688;
+    color:#009688;;
 }
 .irs-other-teachers h3 {
     margin-bottom: 30px;
@@ -1463,9 +1463,9 @@ h6 {
     transition: all 0.3s ease-in-out;
 }
 .irs-gallery-field-two ul li a:hover {
-    border-color: #009688;
+    border-color: #009688;;
     color: #ffffff;
-    background-color: #009688;
+    background-color: #009688;;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
@@ -1495,7 +1495,7 @@ h6 {
 }
 .irs-blog-field .irs-info-text {
     padding: 5px 20px;
-    background: #009688;
+    background: #009688;;
 }
 .irs-blog-field .irs-info-text ul li {
     display: inline-block;
@@ -1523,7 +1523,7 @@ h6 {
     background: #F7F7F7;
     font-size: 16px;
     line-height: 26px;
-    border-left: 2px solid #009688;
+    border-left: 2px solid #009688;;
     margin-bottom: 50px;
     margin-top: 50px;
 }
@@ -1533,16 +1533,16 @@ h6 {
 
 /* ========== Newsletter css Start ========== */
 .irs-newsletter-field {
-
+    
 }
 .irs-newsletter-col {
     margin-bottom: 30px;
 }
 .irs-newsletter-field h2 {
-   margin-bottom: 20px;
+   margin-bottom: 20px; 
 }
 .irs-newsletter-field p {
-   margin-bottom: 30px;
+   margin-bottom: 30px; 
 }
 .irs-newsletter-field  .form-control {
     height: 40px;
@@ -1550,17 +1550,17 @@ h6 {
     box-shadow: none;
 }
 .irs-newsletter-field  .form-control:focus {
-    border-color: #009688;
+    border-color:#009688;;
 }
 .irs-newsletter-field  .input-group-btn .btn {
     height: 40px;
     border-radius: 0;
     padding: 6px 20px;
     color: #ffffff;
-    background: #009688;
+    background:#009688;;
 }
 .irs-newsletter-field-two {
-    padding-top: 80px;
+    padding-top: 80px; 
 }
 
 /* ========== Discription css Start ========== */
@@ -1576,7 +1576,7 @@ h6 {
     margin-bottom: 30px;
 }
 .irs-discription-col h1 span {
-    color: #009688;
+    color: #009688;;
 }
 .irs-topdiscription {
     margin-bottom: 20px;
@@ -1591,7 +1591,7 @@ h6 {
 }
 
 
-/* ========== Mission css Start ========== */
+/* ========== Mission css Start ========== */ 
 .irs-mission-field {
     padding: 100px 0 70px;
     background: #F6F6F6;
@@ -1616,7 +1616,7 @@ h6 {
     transition: all 0.5s ease-in-out;
 }
 .irs-left-item:hover .irs-hexagon-two {
-    background-color: #009688;
+    background-color:#009688;;
 }
 .irs-hexagon-two:before,
 .irs-hexagon-two:after {
@@ -1637,7 +1637,7 @@ h6 {
     transition: all 0.5s ease-in-out;
 }
 .irs-left-item:hover .irs-hexagon-two:before {
-    border-bottom-color: #009688;
+    border-bottom-color: #009688;;
 }
 .irs-hexagon-two:after {
   top: 100%;
@@ -1650,7 +1650,7 @@ h6 {
     transition: all 0.5s ease-in-out;
 }
 .irs-left-item:hover .irs-hexagon-two:after {
-    border-top-color: #009688;
+    border-top-color:#009688;;
 }
 .irs-hexagon-two i {
     color: #ffffff;
@@ -1676,13 +1676,13 @@ h6 {
     top: 20px;
 }
 .irs-right-item:hover .irs-hexagon-two {
-    background-color: #009688;
+    background-color: #009688;;
 }
 .irs-right-item:hover .irs-hexagon-two:before {
-    border-bottom-color: #009688;
-}
+    border-bottom-color:#009688;;
+} 
 .irs-right-item:hover .irs-hexagon-two:after {
-    border-top-color: #009688;
+    border-top-color: #009688;;
 }
 
 
@@ -1742,14 +1742,14 @@ h6 {
 }
 .irs-accordion-two .panel .panel-title a .icon-1 {
     display: inline-block;
-    color: #009688;
+    color:#009688;;
 }
 .irs-accordion-two .panel-title a.collapsed .icon-1 {
     display: none;
 }
 .irs-accordion-two .panel .panel-title a .icon-2 {
     display: none;
-    color: #009688;
+    color:#009688;;
 }
 .irs-accordion-two .panel .panel-title a.collapsed .icon-2 {
     display: inline-block;
@@ -1793,13 +1793,13 @@ h6 {
     margin-left: -35px;
 }
 .irs-address-box:hover .irs-hexagon-three {
-    background-color: #009688;
+    background-color: #009688;;
 }
 .irs-address-box:hover .irs-hexagon-three:before {
-    border-bottom-color: #009688;
+    border-bottom-color: #009688;;
 }
 .irs-address-box:hover .irs-hexagon-three:after {
-    border-top-color: #009688;
+    border-top-color:#009688;;
 }
 .irs-hexagon-three i {
     font-size: 25px;
@@ -1834,17 +1834,17 @@ h6 {
     display: inline-block;
     margin: auto;
     padding: 30px 60px;
-    border: 1px solid rgba(0, 150, 136, 0.3)
+    border: 1px solid rgba(244, 164, 96, 0.3)
 }
 .irs-inner-page-heading h2 {
     font-size: 40px;
     font-weight: bold;
-    color: #009688;
+    color: #009688;;
     text-transform: uppercase;
 }
 .irs-inner-page-heading i {
     font-size: 40px;
-    color: #009688;
+    color:#009688;;
 }
 .irs-inner-page-heading p {
     margin-top: 10px;
@@ -1856,7 +1856,7 @@ h6 {
     font-weight: bold;
 }
 .irs-inner-page-heading p a:hover {
-    color: #009688;
+    color: #009688;;
 }
 
 /* ========== Service css Start ========== */
@@ -1874,7 +1874,7 @@ h6 {
     transition: all 0.4s ease-in-out;
 }
 .irs-service-col:hover {
-    background: #009688;
+    background: #009688;;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -ms-transition: all 0.4s ease-in-out;
@@ -1883,7 +1883,7 @@ h6 {
 }
 .irs-service-col i {
     font-size: 60px;
-    color: #009688;
+    color: #009688;;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -ms-transition: all 0.4s ease-in-out;
@@ -1936,7 +1936,7 @@ h6 {
     padding: 30px;
 }
 .irs-account-col h3 {
-    color: #009688;
+    color: #009688;;
     margin-bottom: 20px;
 }
 .irs-account-col .form-control {
@@ -1947,7 +1947,7 @@ h6 {
     box-shadow: none;
 }
 .form-control:focus {
-    border-color: #009688;
+    border-color: #009688;;
 }
 .irs-account-col .btn {
     margin-top: 20px;
@@ -1960,7 +1960,7 @@ h6 {
 }
 .irs-404-field h1 {
     font-size: 12vw;
-    color: #009688;
+    color: #009688;;
 }
 .irs-404-field h2 {
     font-size: 3vw;
@@ -1968,7 +1968,7 @@ h6 {
 }
 .irs-404-field h3 a {
     color: #333333;
-    border-bottom: 2px solid #009688;
+    border-bottom: 2px solid #009688;;
     padding-bottom: 10px;
 }
 
@@ -1986,7 +1986,7 @@ h6 {
     background: #F7F7F7;
 }
 .irs-address-col i {
-    color: #009688;
+    color: #009688;;
     font-size: 50px;
 }
 .irs-address-col p {
@@ -2013,7 +2013,7 @@ h6 {
 .irs-footer-field p {
     color: #ffffff;
 }
-.irs-footer-about, .irs-footer-link,
+.irs-footer-about, .irs-footer-link, 
 .irs-footer-tweets, .irs-footer-contact {
     margin-bottom: 30px;
 }

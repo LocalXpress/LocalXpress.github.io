@@ -3,13 +3,14 @@
 function file_contents_of($dir)
 {
 $dir_name=array();
+
 if (is_dir($dir))
 {
   if ($dh = opendir($dir))
   {
     while (($file = readdir($dh)) !== false)
-    {
-      $dir_name[]=$dir.'/'.$file;
+    {	
+      	$dir_name[]=$dir.'/'.$file;
     }
     closedir($dh);
   }

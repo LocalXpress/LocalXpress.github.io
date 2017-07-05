@@ -19,7 +19,7 @@
         background:white;
         color:black;
         font-family: 'Oxygen', sans-serif;
-        font-size:16px;
+        font-size:15px;
 
     }
 
@@ -31,13 +31,12 @@
         background:white;
         color:black;
 }
-
 /* This hides the dropdowns */
 li ul { display: none; }
 
 ul li a {
   display: block;
-  padding: 0.5em;
+  padding: 1em;
   text-decoration: none;
   white-space: nowrap;
   color: black;
@@ -46,16 +45,14 @@ ul li a {
 ul li a:hover { background:white; color:black;}
 
 /* Display the dropdown */
-
-
 li:hover > ul {
   display: block;
-  position:absolute;
+  position: absolute;
 }
 
-li:hover li { float:none; }
+li:hover li { float: none; }
 
-li:hover a { background:white; }
+li:hover a { background:white;}
 
 li:hover li a:hover { background:white;}
 
@@ -68,7 +65,7 @@ li:hover li a:hover { background:white;}
 /* Displays second level dropdowns to the right of the first level dropdown */
 ul ul ul {
   left: 100%;
-  top: 0%;
+  top: 0;
 }
 /* Simple clearfix */
 ul:before,
@@ -103,7 +100,7 @@ ul:after { clear: both; }
 {
     background-color: white; 
     color: black; 
-    border-left: 12px solid #4CAF50;
+    border-left: 12px solid #009688;
     width: 135px;
     box-shadow: 5px 5px 5px #888888;
     float:left; 
@@ -145,12 +142,12 @@ a:link, a:visited
   text-transform: uppercase;
   padding-top: 5px;
   padding-bottom: 5px;
-  text-align:center;
+  margin-right:0px;
 }
 #left_nav_bar a:hover
 {
   color:#009688;
-  font-size: 16px;
+  font-size: 15px;
 }
 </style>
 
@@ -160,15 +157,12 @@ a:link, a:visited
         <div class="irs-header-nav">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-10 col-sm-12">
-                        <!--<nav class="navbar navbar-default irs-navbar">
-                            <div class="container-fluid">-->
-                                <!-- Brand and toggle get grouped for better mobile display -->
-<ul class="main-navigation">
+                    <div class="col-md-12 col-sm-12">
+                                <ul class="main-navigation">
   <li><a href="#">HOME</a></li>
   <li><a href="#">COMPETITIVE EXAMINATIONS</a>
      <ul>
-        <li><a href="">Olympiads&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        <li><a href="">&nbsp;&nbsp;&nbsp;&nbsp;Olympiads&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
           <ul>
             <li><a href="course_PDF.php?id=211" target="_blank">Science Olympiad</a></li>
             <li><a href="course_PDF.php?id=212" target="_blank">Maths Olympiad</a></li>
@@ -186,7 +180,7 @@ a:link, a:visited
       </ul>
   </li>
   
-  <li><a href="#">CBSE</a>
+  <li><a href="#">&nbsp;&nbsp;CBSE&nbsp;&nbsp;&nbsp;</a>
     <ul>
       <li><a href="#">Classes I-VI</a>
           <ul>
@@ -309,7 +303,7 @@ a:link, a:visited
       </li>
     </ul>
   </li>
-  <li><a href="#">ICSE/ISC</a>
+  <li><a href="#">&nbsp;&nbsp;ICSE/ISC</a>
     <ul>
       <li><a href="#">Classes I-VI</a>
           <ul>
@@ -432,7 +426,7 @@ a:link, a:visited
       </li>
     </ul>
   </li>
-  <li><a href="#">NCERT</a>
+  <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NCERT&nbsp;&nbsp;&nbsp;&nbsp;</a>
     <ul>
       <li><a href="course_PDF.php?id=51" target="_blank">Textbook</a>
       <li><a href="course_PDF.php?id=52" target="_blank">Textbook Solution</a>
@@ -441,9 +435,10 @@ a:link, a:visited
       <li><a href="course_PDF.php?id=55" target="_blank">Lab Manual</a>
     </ul>
   </li>
-  <li><a href="#">MOCK TESTS</a>
+
+  <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MOCK TESTS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
     <ul>
-      <li><a href="">Olympiads&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+      <li><a href="">Olympiads</a>
           <ul>
             <li><a href="course_PDF.php?id=611" target="_blank">Science Olympiad</a></li>
             <li><a href="course_PDF.php?id=612" target="_blank">Maths Olympiad</a></li>
@@ -460,9 +455,10 @@ a:link, a:visited
         <li><a href="course_PDF.php?id=68" target="_blank">NEST</a></li>
     </ul>
   </li>
+  
   <li><a href="#">STUDY MATERIALS</a>
     <ul>
-      <li><a href="#">Class XII</a>
+      <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Class XII&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
         <ul>
           <li><a href="course_PDF.php?id=711" target="_blank">CBSE</a></li>
           <li><a href="course_PDF.php?id=712" target="_blank">ISC</a></li>
@@ -506,18 +502,8 @@ a:link, a:visited
       </li>
     </ul>
   </li>
- </ul> 
-</nav>
-                    </div>
-                    <div class="col-md-2 col-sm-12">
-                      <div id="left_nav_bar">
-                      <a href="#contact_us">CONTACT US</a></p>
-                      </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+ </ul>
+</div>
     </header>
     <!-- Main Header end -->
     <!-- main slider start -->
@@ -526,8 +512,8 @@ a:link, a:visited
             <!-- Indicators -->
             <ol class="carousel-indicators">
             <div id="subject_pane">
-            		<button class="button button1"><i class="fa fa-rocket">
-            		<a href="Course_PDF.html">Physics</a></i></button>
+                    <button class="button button1"><i class="fa fa-rocket">
+                    <a href="Course_PDF.html">Physics</a></i></button>
                     <button class="button button1"><i class="fa fa-flask">
                     <a href="Course_PDF.html">Chemistry</a></i></button>
                     <button class="button button1"><i class="fa fa-heartbeat">

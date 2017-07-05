@@ -24,23 +24,64 @@
     {
         text-transform:uppercase;
         text-align:center;
-        padding:15px;
+        border: 2px solid #009688;
+        width: 200px;
+        height: 100px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    #subject_header
+    {
+        padding:10px;
+        font-size:20px;
+    }
+    #sub
+    {
+        width:20%;
+        padding:10px;
+        font-size:30px;
+        border-left:6px solid #009688;
+        margin-bottom:10px;
+        background: #f3fff4;
+    }
+    #test
+    {
+        font-size:20px;
+        color:black;
+    }
+    a
+    {
+        color:black;
     }
     </style>
     <script>
+    var splitTest = function (str) {return (str.split('\\').pop().split('/').pop().split('.'))[0];}
     function dir_info()
     {
         var ch=<?php echo json_encode($_GET['id']);?>;
 
     /*CH VARIABLE GETS THE DIRECTORY ID FROM THE URL AND ACCORDING PARSES THE DIRECTORY FOR REQUIRED CONTENTS*/
-    if(ch==2)
-    {   var data_name=<?php echo json_encode(file_contents_of("./images/blog"), JSON_PRETTY_PRINT)?>;
-        data_name=data_name.concat(<?php echo json_encode(file_contents_of("./images/bg"), JSON_PRETTY_PRINT)?>);}   
-    else if(ch==1)
-        var data_name=<?php echo json_encode(file_contents_of("./data"), JSON_PRETTY_PRINT)?>;
-    else
-        var data_name=<?php echo json_encode(file_contents_of("./images/slider"), JSON_PRETTY_PRINT)?>;
 
+/*===============================================================================================================================                                        CHANGES TO BE MADE AFTER THIS POINT
+===============================================================================================================================*/
+    if(ch==2)
+    {   
+        var class_name="XII";
+        var sub_name="Biology"
+        sub.innerHTML=class_name+" "+sub_name;
+        subject_header.innerHTML=class_name+"  "+sub_name;
+
+
+        var data_name=<?php echo json_encode(file_contents_of("./images/blog"), JSON_PRETTY_PRINT)?>;
+        data_name=data_name.concat(<?php echo json_encode(file_contents_of("./images/bg"), JSON_PRETTY_PRINT)?>);
+    }   
+    else ;
+
+
+/*===============================================================================================================================                                          NO CHANGES TO BE MADE AFTER THIS POINT
+===============================================================================================================================*/
     if(data_name.length==0)
         alert("Empty Directory");
     else
@@ -48,9 +89,10 @@
         node=document.querySelector('#test');
         copy=node.cloneNode(true);
         for(i=2;i<data_name.length;i++)
-        {
-            copy.innerHTML="<a href='try.html?id="+data_name[i]+"' target='_blank'>"+data_name[i]+"</a>";   
-            node.appendChild(copy.cloneNode(true));
+        {   
+                file_name=splitTest(data_name[i]);
+                copy.innerHTML="  <a href='try.html?id="+data_name[i]+"' target='_blank'>"+file_name+"</a>"; 
+                node.appendChild(copy.cloneNode(true));
         }
     }
     }
@@ -70,17 +112,26 @@
             </div>
     </div>
     </header>
+    <br>
+
+
+
     <div id="heading">
-        notes will be down below
+    <p><div id="subject_header"></div>NOTES</p>
     </div>
     <div id="con">
         <div class="container">
             <div class="row">
+                <div id="sub"></div>
                 <div id="test"></div>
             </div>
             <br><br><br>
-        </div>
-        </div>
+    </div>
+</div>
+
+
+
+
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/bootstrap-dropdownhover.min.js"></script>
