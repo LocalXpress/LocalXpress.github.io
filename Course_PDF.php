@@ -1,3 +1,4 @@
+<?php include 'php/functions.php';?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="images/apple-icon.png" rel="icon" type="image/png">
     <link href="images/favicon.png" rel="shortcut icon" type="image/png">
-    <title>Teachers</title>
+    <title>NOTES</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -26,9 +27,36 @@
         padding:15px;
     }
     </style>
-</head>
+    <script>
+    function dir_info()
+    {
+        var ch=<?php echo json_encode($_GET['id']);?>;
 
-<body onload="teacher_information()">
+    /*CH VARIABLE GETS THE DIRECTORY ID FROM THE URL AND ACCORDING PARSES THE DIRECTORY FOR REQUIRED CONTENTS*/
+    if(ch==2)
+    {   var data_name=<?php echo json_encode(file_contents_of("./images/blog"), JSON_PRETTY_PRINT)?>;
+        data_name=data_name.concat(<?php echo json_encode(file_contents_of("./images/bg"), JSON_PRETTY_PRINT)?>);}   
+    else if(ch==1)
+        var data_name=<?php echo json_encode(file_contents_of("./data"), JSON_PRETTY_PRINT)?>;
+    else
+        var data_name=<?php echo json_encode(file_contents_of("./images/slider"), JSON_PRETTY_PRINT)?>;
+
+    if(data_name.length==0)
+        alert("Empty Directory");
+    else
+    {   /*CREATES LINKS FOR GETTING THE DOCUMENTS*/
+        node=document.querySelector('#test');
+        copy=node.cloneNode(true);
+        for(i=2;i<data_name.length;i++)
+        {
+            copy.innerHTML="<a href='try.html?id="+data_name[i]+"' target='_blank'>"+data_name[i]+"</a>";   
+            node.appendChild(copy.cloneNode(true));
+        }
+    }
+    }
+    </script>
+</head>
+<body onload="dir_info();">
     <header class="irs-main-header">
         <div class="irs-header-top-bar">
             <div class="container">
@@ -48,18 +76,7 @@
     <div id="con">
         <div class="container">
             <div class="row">
-                <ul>
-                    <li><a href="HTML_view.html" target="_blank">1. Sample Notes</a></li>
-                    <li><a href="HTML_view.html" target="_blank">1. Sample Notes</a></li>
-                    <li><a href="HTML_view.html" target="_blank">1. Sample Notes</a></li>
-                    <li><a href="HTML_view.html" target="_blank">1. Sample Notes</a></li>
-                    <li><a href="HTML_view.html" target="_blank">1. Sample Notes</a></li>
-                    <li><a href="HTML_view.html" target="_blank">1. Sample Notes</a></li>
-                    <li><a href="HTML_view.html" target="_blank">1. Sample Notes</a></li>
-                    <li><a href="HTML_view.html" target="_blank">1. Sample Notes</a></li>
-                    <li><a href="HTML_view.html" target="_blank">1. Sample Notes</a></li>
-
-                </ul>
+                <div id="test"></div>
             </div>
             <br><br><br>
         </div>
