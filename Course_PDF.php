@@ -57,7 +57,15 @@
     }
     </style>
     <script>
-    var splitTest = function (str) {return (str.split('\\').pop().split('/').pop().split('.'))[0];}
+    window.onload =dir;
+    
+    function dir()
+    {
+        alert("Hello");
+        sub.innerHTML="Heueue";
+    }
+
+    function splitTest(str) {return (str.split('\\').pop().split('/').pop().split('.'))[0];}
     function dir_info()
     {
         var ch=<?php echo json_encode($_GET['id']);?>;
@@ -73,11 +81,9 @@
         sub.innerHTML=class_name+" "+sub_name;
         subject_header.innerHTML=class_name+"  "+sub_name;
 
-
-        var data_name=<?php echo json_encode(file_contents_of("./images/blog"), JSON_PRETTY_PRINT)?>;
-        data_name=data_name.concat(<?php echo json_encode(file_contents_of("./images/bg"), JSON_PRETTY_PRINT)?>);
-    }   
-    else ;
+        var data_name=<?php echo json_encode(file_contents_of("./images/blog"), JSON_PRETTY_PRINT);?>;
+        data_name=data_name.concat(<?php echo json_encode(file_contents_of("./images/bg"), JSON_PRETTY_PRINT);?>);
+    }
 
 
 /*===============================================================================================================================                                          NO CHANGES TO BE MADE AFTER THIS POINT
@@ -98,7 +104,7 @@
     }
     </script>
 </head>
-<body onload="dir_info();">
+<body>
     <header class="irs-main-header">
         <div class="irs-header-top-bar">
             <div class="container">

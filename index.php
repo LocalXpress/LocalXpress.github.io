@@ -36,7 +36,7 @@ li ul { display: none; }
 
 ul li a {
   display: block;
-  padding: 1em;
+  padding: 0.7em;
   text-decoration: none;
   white-space: nowrap;
   color: black;
@@ -101,7 +101,7 @@ ul:after { clear: both; }
     background-color: white; 
     color: black; 
     border-left: 12px solid #009688;
-    width: 135px;
+    width: 150px;
     box-shadow: 5px 5px 5px #888888;
     float:left; 
     margin-left:44.2%;
@@ -502,6 +502,7 @@ a:link, a:visited
       </li>
     </ul>
   </li>
+  <li><a href="#contact_us">CONTACT US</a></li>
  </ul>
 </div>
     </header>
