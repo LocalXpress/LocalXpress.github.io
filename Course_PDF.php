@@ -57,14 +57,8 @@
     }
     </style>
     <script>
-    window.onload =dir;
-    
-    function dir()
-    {
-        alert("Hello");
-        sub.innerHTML="Heueue";
-    }
-
+    window.onload =dir_info;
+   
     function splitTest(str) {return (str.split('\\').pop().split('/').pop().split('.'))[0];}
     function dir_info()
     {
