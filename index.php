@@ -851,15 +851,15 @@ a:link, a:visited
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="irs-address-col">
-                        <i class="icofont icofont-telephone"></i>
-                        <p>098743 10623</p>
+                        <i class="fa fa-mobile"></i>
+                        <p>098743 10623 / 089814 35795</p>
                     </div>
                     <div class="irs-address-col">
-                        <i class="icofont icofont-email"></i>
+                        <i class="fa fa-envelope"></i>
                         <p>asterixeducation@gmail.com</p>
                     </div>
                     <div class="irs-address-col">
-                        <i class="icofont icofont-social-google-map"></i>
+                        <i class="fa fa-map-marker"></i>
                     <p>23/8, Pranabananda Road, Near Kavi Nazrul Metro Station, Sreerampur, Garia, Kolkata, West Bengal 700084</p>
                     </div>
                 </div>

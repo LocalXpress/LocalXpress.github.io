@@ -80,59 +80,59 @@
     }
     else if(ch==211)
     {
-        //Science Olympiad
+        //Science Olympiad study material
     }
     else if(ch==212)
     {
-        //Maths Olympiad
+        //Maths Olympiad study material
     }
     else if(ch==213)
     {
-        //Computer Olympiad
+        //Computer Olympiad study material
     }
     else if(ch==214)
     {
-        //English Olympiad
+        //English Olympiad study material
     }
     else if(ch==22)
     {
-        //NEET
+        //NEET study material 
     }
     else if(ch==23)
     {
-        //JEE
+        //JEE study material
     }
     else if(ch==24)
     {
-        //WBJEE
+        //WBJEE study material
     }
     else if(ch==25)
     {
-        //NTSE
+        //NTSE study material
     }
     else if(ch==26)
     {
-        //KVPY
+        //KVPY study material
     }
     else if(ch==27)
     {
-        //IISER
+        //IISER study material
     }
     else if(ch==28)
     {
-        //NEST
+        //NEST study material
     }
     else if(ch==29)
     {
-        //NET
+        //NET study material
     }
     else if(ch==2a)
     {
-        //IIT-JAM
+        //IIT-JAM study material
     }
     else if(ch==2b)
     {
-        //JNU
+        //JNU study material
     }
     else if(ch==311)
     {
@@ -686,72 +686,145 @@
     {
         //icse class 12 biotech
     }
-    else if(ch==51||ch==52||ch==53||ch==54||ch==55)
+    else if(ch==51)
     {
-        //ncert book
-        //ncert solution
-        //ncert exemplar
-        //ncert exemplar solution
-        //ncert lab manual
+        //cbse each class each subject ncert book
     }
+    else if(ch==52)
+    {
+        //cbse each class each subject ncert solution
+    }
+    else if(ch==53)
+    {
+        //cbse each class each subject ncert exemplar book
+    }
+    else if(ch==54)
+    {
+        //cbse each class each subject ncert exemplar solution
+    }
+    else if(ch==55)
+    {
+        //cbse each class each subject lab manual
+    }    
     else if(ch==611)
     {
-        //Science Olympiad
+        //Science Olympiad mock test
     }
     else if(ch==612)
     {
-        //Maths Olympiad
+        //Maths Olympiad mock test
     }
     else if(ch==613)
     {
-        //Computer Olympiad
+        //Computer Olympiad mock test
     }
     else if(ch==614)
     {
-        //English Olympiad
+        //English Olympiad mock test
     }
     else if(ch==62)
     {
-        //NEET
+        //NEET mock test
     }
     else if(ch==63)
     {
-        //JEE
+        //JEE mock test
     }
     else if(ch==64)
     {
-        //WBJEE
+        //WBJEE mock test
     }
     else if(ch==65)
     {
-        //NTSE
+        //NTSE mock test
     }
     else if(ch==66)
     {
-        //KVPY
+        //KVPY mock test
     }
     else if(ch==67)
     {
-        //IISER
+        //IISER mock test
     }
     else if(ch==68)
     {
-        //NEST
+        //NEST mock test
     }
     else if(ch==69)
     {
-        //NET
+        //NET mock test
     }
     else if(ch==6a)
     {
-        //IIT-JAM
+        //IIT-JAM mock test
     }
     else if(ch==6b)
     {
-        //JNU
+        //JNU mock test
     }
-   
-
+    else if(ch==711)
+    {
+        //cbse class 12
+    }
+    else if(ch==712)
+    {
+        //icse class 12
+    }
+    else if(ch==721)
+    {
+        //cbse class 11
+    }
+    else if(ch==722)
+    {
+        //icse class 11
+    }
+    else if(ch==731)
+    {
+        //cbse class 10
+    }
+    else if(ch==732)
+    {
+        //icse class 10
+    }
+    else if(ch==741)
+    {
+        //cbse class 9
+    }
+    else if(ch==742)
+    {
+        //icse class 9
+    }
+    else if(ch==751)
+    {
+        //cbse class 8
+    }
+    else if(ch==752)
+    {
+        //icse class 8
+    }
+    else if(ch==761)
+    {
+        //cbse class 7
+    }
+    else if(ch==762)
+    {
+        //icse class 7
+    }
+    else if(ch==771)
+    {
+        //cbse class 6
+    }
+    else if(ch==772)
+    {
+        //icse class 6
+    }else if(ch==781)
+    {
+        //cbse class 1to5
+    }
+    else if(ch==782)
+    {
+        //icse class 1to5
+    }
 
 /*===============================================================================================================================                                          NO CHANGES TO BE MADE AFTER THIS POINT
 ===============================================================================================================================*/
