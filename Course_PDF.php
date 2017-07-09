@@ -55,6 +55,27 @@
     {
         color:black;
     }
+
+    .tdElement
+    {
+        float:left;
+        min-width:250px;
+        min-height: 50px;
+        background-color: #ffffff;
+        box-shadow: 3px 3px 3px;
+        text-align: center;
+        margin: 5px;
+        border-radius: 3px;
+        padding: 10px;
+        background-image: url("images/folder.png");
+        background-size: 50px 50px;
+        background-repeat: no-repeat;
+    }
+    .tdElement:hover
+    {
+        background-color: #f3fff4;
+    }
+
     </style>
     <script>
     window.onload =dir_info;
@@ -91,13 +112,17 @@
         for(i=2;i<data_name.length;i++)
         {   
                 file_name=splitTest(data_name[i]);
-                copy.innerHTML="  <a href='try.html?id="+data_name[i]+"' target='_blank'>"+file_name+"</a>"; 
+            if(file_name)
+            {   
+                copy.innerHTML="<div class='tdElement'><a href='try.html?id="+data_name[i]+"' target='_blank'>"+file_name+"</a></div>"; 
                 node.appendChild(copy.cloneNode(true));
+            }
         }
     }
     }
     </script>
 </head>
+
 <body>
     <header class="irs-main-header">
         <div class="irs-header-top-bar">
@@ -123,14 +148,11 @@
         <div class="container">
             <div class="row">
                 <div id="sub"></div>
-                <div id="test"></div>
+                <div id="test"></div>   
             </div>
             <br><br><br>
     </div>
 </div>
-
-
-
 
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
