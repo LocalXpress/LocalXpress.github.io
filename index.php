@@ -101,16 +101,24 @@ ul:after { clear: both; }
     background-color: white; 
     color: black; 
     border-left: 12px solid #009688;
-    width: 150px;
+    width: 250px;
     box-shadow: 5px 5px 5px #888888;
     float:left; 
     margin-left:44.2%;
+}
+.color_combo2
+{
+  background-color: yellow;
+}
+.color_combo3
+{
+  background-color: pink;
 }
 .button1:hover
 {
     background-color: #f3fff4;
     font-size:15px;
-    width:200px;
+    width:300px;
     height:50px;
 }
 a:link, a:visited
@@ -149,8 +157,53 @@ a:link, a:visited
   color:#009688;
   font-size: 15px;
 }
-</style>
+marquee{
+        font-size: 30px;
+        font-style: italic;
+        font-family: aria;
+        padding: 5px;
+        color:  #009688;
+    }
 
+@-webkit-keyframes blinker {
+  from {opacity: 1.0;}
+  to {opacity: 0.0;}
+}
+.blink{
+  text-decoration: blink;
+  -webkit-animation-name: blinker;
+  -webkit-animation-duration: 0.6s;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-timing-function:ease-in-out;
+  -webkit-animation-direction: alternate;
+}
+.strange_background
+{
+        color: white !important;
+        font-size: 20px;
+        font-weight: 25px;
+        padding-left:50px;
+        padding-right:50px;
+        text-decoration: bold;
+        background: red; /* not working, let's see some red */
+        background: -moz-linear-gradient( top ,
+        rgba(255, 0, 0, 1) 0%,
+        rgba(255, 255, 0, 1) 15%,
+        rgba(0, 255, 0, 1) 30%,
+        rgba(0, 255, 255, 1) 50%,
+        rgba(0, 0, 255, 1) 65%,
+        rgba(255, 0, 255, 1) 80%,
+        rgba(255, 0, 0, 1) 100%);
+        background: -webkit-gradient(linear,  left top,  left bottom, 
+        color-stop(0%, rgba(255, 0, 0, 1)), 
+        color-stop(15%, rgba(255, 255, 0, 1)),
+        color-stop(30%, rgba(0, 255, 0, 1)),
+        color-stop(50%, rgba(0, 255, 255, 1)),
+        color-stop(65%, rgba(0, 0, 255, 1)),
+        color-stop(80%, rgba(255, 0, 255, 1)),
+        color-stop(100%, rgba(255, 0, 0, 1)));
+}
+</style>
 </head>
 <body>
     <header class="irs-main-header ire-header-two">
@@ -475,6 +528,7 @@ a:link, a:visited
   </li>
   <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NCERT&nbsp;&nbsp;&nbsp;&nbsp;</a>
     <ul>
+      <center><span class="blink strange_background">FREE</span></span>
       <li><a href="course_PDF.php?id=51" target="_blank">Textbook</a>
       <li><a href="course_PDF.php?id=52" target="_blank">Textbook Solution</a>
       <li><a href="course_PDF.php?id=53" target="_blank">Exemplar</a>
@@ -508,6 +562,7 @@ a:link, a:visited
   
   <li><a href="#">STUDY MATERIALS</a>
     <ul>
+      <center><span class="blink strange_background">FREE</span></span>
       <li><a href="#">Class XII&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
         <ul>
           <li><a href="course_PDF.php?id=711" target="_blank">CBSE</a></li>
@@ -569,20 +624,20 @@ a:link, a:visited
             <!-- Indicators -->
             <ol class="carousel-indicators">
             <div id="subject_pane">
-                    <button class="button button1"><i class="fa fa-quote-left">
-                    <a href="Course_PDF.html">English</a></i></button>
-                    <button class="button button1"><i class="fa fa-rocket">
-                    <a href="Course_PDF.html">Physics</a></i></button>
-                    <button class="button button1"><i class="fa fa-flask">
-                    <a href="Course_PDF.html">Chemistry</a></i></button>
-                    <button class="button button1"><i class="fa fa-heartbeat">
-                    <a href="Course_PDF.html">Biology</a></i></button>
-                    <button class="button button1"><i class="fa fa-percent">
-                    <a href="Course_PDF.html">Mathematics</a></i></button>
-                    <button class="button button1"><i class="fa fa-laptop">
-                    <a href="Course_PDF.html">Computer Science</a></i></button>
-                    <button class="button button1"><i class="fa fa-venus-double">
-                    <a href="Course_PDF.html">Biotechnology</a></i></button>
+                    <button class="button button1 color_combo3"><i class="fa fa-quote-left">
+                    <a href="course_PDF.php">English</a></i></button>
+                    <button class="button button1 color_combo2"><i class="fa fa-rocket">
+                    <a href="course_PDF.php">Physics</a></i></button>
+                    <button class="button button1 color_combo3"><i class="fa fa-flask">
+                    <a href="course_PDF.php">Chemistry</a></i></button>
+                    <button class="button button1 color_combo2"><i class="fa fa-heartbeat">
+                    <a href="course_PDF.php">Biology</a></i></button>
+                    <button class="button button1 color_combo3"><i class="fa fa-percent">
+                    <a href="course_PDF.php">Mathematics</a></i></button>
+                    <button class="button button1 color_combo2"><i class="fa fa-laptop">
+                    <a href="course_PDF.php">Computer Science</a></i></button>
+                    <button class="button button1 color_combo3"><i class="fa fa-venus-double">
+                    <a href="course_PDF.php">Biotechnology</a></i></button>
             </div>
             </ol>
             <!-- Wrapper for slides -->
@@ -590,7 +645,7 @@ a:link, a:visited
                 <div class="item slides active">
                     <div class="slide-1"></div>
                     <div class="hero">
-                        <h1><strong>*asterix</strong></h1>
+                        <span class="blink"><h1><strong>*asterix</strong></h1></span>
                         <a href="#" class="btn btn-default irs-big-btn" style="color:white;"role="button">Login</a>
                     </div>
                 </div>
@@ -599,6 +654,7 @@ a:link, a:visited
     </section>
     <!-- Main slider end -->
     <!-- Discription start -->
+    <marquee><span class="blink">NCERT BOOKS FREE DOWNLOAD, STUDY MATERIALS, MOCK TESTS AND MUCH MORE!!</span></marquee>
     <section id="about_us" class="irs-discription-field">
         <div class="container">
             <div class="row">
