@@ -178,8 +178,8 @@ a:link, a:visited
         <li><a href="course_PDF.php?id=27" target="_blank">IISER</a></li>
         <li><a href="course_PDF.php?id=28" target="_blank">NEST</a></li>
         <li><a href="course_PDF.php?id=29" target="_blank">NET</a></li>
-        <li><a href="course_PDF.php?id=2a" target="_blank">IIT-JAM</a></li>
-        <li><a href="course_PDF.php?id=2b" target="_blank">JNU</a></li>
+        <li><a href="course_PDF.php?id=201" target="_blank">IIT-JAM</a></li>
+        <li><a href="course_PDF.php?id=202" target="_blank">JNU</a></li>
       </ul>
   </li>
   
@@ -501,8 +501,8 @@ a:link, a:visited
         <li><a href="course_PDF.php?id=67" target="_blank">IISER</a></li>
         <li><a href="course_PDF.php?id=68" target="_blank">NEST</a></li>
         <li><a href="course_PDF.php?id=69" target="_blank">NET</a></li>
-        <li><a href="course_PDF.php?id=6a" target="_blank">IIT-JAM</a></li>
-        <li><a href="course_PDF.php?id=6b" target="_blank">JNU</a></li>
+        <li><a href="course_PDF.php?id=601" target="_blank">IIT-JAM</a></li>
+        <li><a href="course_PDF.php?id=602" target="_blank">JNU</a></li>
     </ul>
   </li>
   
