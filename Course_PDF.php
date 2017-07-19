@@ -75,7 +75,12 @@
     {
         background-color: #f3fff4;
     }
-
+    marquee
+    {
+        font-size: 30px;
+        font-style: italic;
+        font-family: aria
+    }
     </style>
     <script>
     window.onload =dir_info;
@@ -2264,7 +2269,7 @@
         //IIT-JAM mock test
         var data_name=<?php echo json_encode(file_contents_of("./data/competitive exams/IIT-JAM/Mock Tests"), JSON_PRETTY_PRINT);?>;
     }
-    else if(ch==602)
+    if(ch==602)
     {
         //JNU mock test
         var data_name=<?php echo json_encode(file_contents_of("./data/competitive exams/JNU/Mock Tests"), JSON_PRETTY_PRINT);?>;
@@ -3529,7 +3534,7 @@
         copy=node.cloneNode(true);
         for(i=2;i<data_name.length;i++)
         {   
-                file_name=splitTest(data_name[i]);
+            file_name=splitTest(data_name[i]);
             if(file_name)
             {   
                 copy.innerHTML="<div class='tdElement'><a href='try.html?id="+data_name[i]+"' target='_blank'>"+file_name+"</a></div>"; 
@@ -3556,7 +3561,7 @@
     </div>
     </header>
     <br>
-
+    <marquee>NCERT BOOKS FREE DOWNLOAD AND MUCH MORE!!</marquee>
 
 
     <div id="heading">
