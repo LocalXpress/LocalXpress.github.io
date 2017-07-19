@@ -3537,7 +3537,7 @@
             file_name=splitTest(data_name[i]);
             if(file_name)
             {   
-                copy.innerHTML="<div class='tdElement'><a href='try.html?id="+data_name[i]+"' target='_blank'>"+file_name+"</a></div>"; 
+                copy.innerHTML="<a href='try.html?id="+data_name[i]+"' target='_blank'>"+file_name+"</a><div class='tdElement'></div>"; 
                 node.appendChild(copy.cloneNode(true));
             }
         }
