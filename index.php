@@ -19,7 +19,7 @@
         background:white;
         color:black;
         font-family: 'Oxygen', sans-serif;
-        font-size:15px;
+        font-size:16px;
 
     }
 
@@ -40,6 +40,7 @@ ul li a {
   text-decoration: none;
   white-space: nowrap;
   color: black;
+  font-weight: bold;
 }
 
 ul li a:hover { background:white; color:black;}
@@ -179,13 +180,12 @@ marquee{
 }
 .strange_background
 {
-        color: white !important;
+        color: red !important;
         font-size: 20px;
         font-weight: 25px;
         padding-left:50px;
         padding-right:50px;
         text-decoration: bold;
-        background: red; /* not working, let's see some red */
         background: -moz-linear-gradient( top ,
         rgba(255, 0, 0, 1) 0%,
         rgba(255, 255, 0, 1) 15%,
@@ -194,15 +194,56 @@ marquee{
         rgba(0, 0, 255, 1) 65%,
         rgba(255, 0, 255, 1) 80%,
         rgba(255, 0, 0, 1) 100%);
-        background: -webkit-gradient(linear,  left top,  left bottom, 
-        color-stop(0%, rgba(255, 0, 0, 1)), 
-        color-stop(15%, rgba(255, 255, 0, 1)),
-        color-stop(30%, rgba(0, 255, 0, 1)),
-        color-stop(50%, rgba(0, 255, 255, 1)),
-        color-stop(65%, rgba(0, 0, 255, 1)),
-        color-stop(80%, rgba(255, 0, 255, 1)),
-        color-stop(100%, rgba(255, 0, 0, 1)));
-}
+        background-color: yellow;
+        -moz-border-radius: 100px / 50px;
+        -webkit-border-radius: 100px / 50px;
+        border-radius: 100px / 50px;
+        margin: 3px 3px 3px 3px;
+    }
+  #contact
+  {
+    height: 340px;
+    width: 450px;
+    background-color: white;
+    z-index: 99;
+    margin-left: 1250px;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-right: 15px;
+    border: 6px solid #009688;
+  }
+  #contact p
+  {
+    font-size: 18px;
+  }
+  #name
+  {
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    color:#009688;
+  }
+  #main_name
+  {
+    color:#009688;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 4px;
+  }
+  #contact a
+  {
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    border: 2px solid #009688;
+  }
+  #contact a:hover
+  {
+    color:#ffffff;
+    background-color: #009688;
+  }
 </style>
 </head>
 <body>
@@ -528,7 +569,6 @@ marquee{
   </li>
   <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NCERT&nbsp;&nbsp;&nbsp;&nbsp;</a>
     <ul>
-      <center><span class="blink strange_background">FREE</span></span>
       <li><a href="course_PDF.php?id=51" target="_blank">Textbook</a>
       <li><a href="course_PDF.php?id=52" target="_blank">Textbook Solution</a>
       <li><a href="course_PDF.php?id=53" target="_blank">Exemplar</a>
@@ -562,7 +602,6 @@ marquee{
   
   <li><a href="#">STUDY MATERIALS</a>
     <ul>
-      <center><span class="blink strange_background">FREE</span></span>
       <li><a href="#">Class XII&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
         <ul>
           <li><a href="course_PDF.php?id=711" target="_blank">CBSE</a></li>
@@ -613,10 +652,13 @@ marquee{
       </li>
     </ul>
   </li>
-  <li><a href="#contact_us">CONTACT US</a></li>
+  <!--<li><a href="#contact_us">CONTACT US&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+      <ul>-->
+      <!--</ul>
+  </li>-->
  </ul>
 </div>
-    </header>
+</header>
     <!-- Main Header end -->
     <!-- main slider start -->
     <section class="irs-main-slider irs-main-slider-two">
@@ -639,6 +681,19 @@ marquee{
                     <button class="button button1 color_combo3"><i class="fa fa-venus-double">
                     <a href="course_PDF.php">Biotechnology</a></i></button>
             </div>
+                    <div id="contact">
+                            <div id="main_name">supriyo mondol</div>
+                            <div id="name">You can call us at: </div>
+                            <p>098743 10623 / 089814 35795</p>
+                            <div id="name">You can mail us at: </div>
+                            <p>asterixeducation@gmail.com</p>
+                            <div id="name">You can reach us at: </div>
+                            <p>23/8, Pranabananda Road,</p> 
+                            <p>Near Kavi Nazrul Metro Station,</p> 
+                            <p>Sreerampur, Garia, Kolkata, 
+                            <p>West Bengal 700084</p>
+                            <center><a href="#contact_us">KNOW MORE</a></center>
+                    </div>
             </ol>
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
@@ -654,7 +709,15 @@ marquee{
     </section>
     <!-- Main slider end -->
     <!-- Discription start -->
-    <marquee><span class="blink">NCERT BOOKS FREE DOWNLOAD, STUDY MATERIALS, MOCK TESTS AND MUCH MORE!!</span></marquee>
+    <marquee>
+                    NCERT BOOKS<span class="blink strange_background">FREE</span>
+                    NCERT SOLUTIONS<span class="blink strange_background">FREE</span>
+                    NCERT EXAMPLER<span class="blink strange_background">FREE</span>
+                    NCERT EXAMPLER SOLUTIONS<span class="blink strange_background">FREE</span>
+                    PREVIOUS YEAR QUESTION PAPER<span class="blink strange_background">FREE</span>
+                    STUDY MATERIALS,<span class="blink strange_background">FREE</span>
+                    MOCK TESTS <span class="blink strange_background">FREE</span>
+    </marquee>
     <section id="about_us" class="irs-discription-field">
         <div class="container">
             <div class="row">
